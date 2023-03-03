@@ -1,0 +1,140 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BankingApp.SavingsCalculator"
+             xmlns:local="clr-namespace:BankingApp"
+             xmlns:res="clr-namespace:BankingApp.Resources"
+             Title="SavingsCalculator"
+             BackgroundColor="#8F2929"
+             Shell.NavBarIsVisible="True">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <!--~Savings Calculator Template-->
+            <DataTemplate x:Key="EvenTemplate">
+                <VerticalStackLayout Margin="10" BackgroundColor="#202327" Padding="10">
+
+                    <Label Grid.Column="1"
+                           Text="{x:Static res:LanguageResources.Month}"
+                           FontFamily="AgeoBold" />
+
+                    <Label Grid.Row="1"
+                           Text="{Binding Month}"  
+                           FontAttributes="Bold" />
+
+                    <Label Grid.Column="2"
+                           Text="{x:Static res:LanguageResources.IncomewithRate}"
+                           FontFamily="AgeoBold" />
+
+                    <Label Grid.Row="2"
+                           Text="{Binding Income}"
+                            FontAttributes="Bold"/>
+
+                </VerticalStackLayout>
+            </DataTemplate>
+
+            <DataTemplate x:Key="OddTemplate">
+                <VerticalStackLayout Margin="10" BackgroundColor="#505862" Padding="10">
+
+                    <Label Grid.Column="1"
+                           Text="{x:Static res:LanguageResources.Month}"
+                           FontFamily="AgeoBold" />
+
+                    <Label Grid.Row="1"
+                           Text="{Binding Month}"  
+                           FontAttributes="Bold" />
+
+                    <Label Grid.Column="2"
+                           Text="{x:Static res:LanguageResources.IncomewithRate}"
+                           FontFamily="AgeoBold" />
+
+                    <Label Grid.Row="2"
+                           Text="{Binding Income}"
+                            FontAttributes="Bold"/>
+
+                </VerticalStackLayout>
+            </DataTemplate>
+
+            <local:AlternateRowColour x:Key="AlternateRowColour"
+                EvenTemplate="{StaticResource EvenTemplate}"
+                OddTemplate="{StaticResource OddTemplate}" />
+            <!--Fim da Savings Calculator Template-->
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ScrollView>
+
+        <VerticalStackLayout>
+            <VerticalStackLayout x:Name="InternetFailure" Margin="0,10,0,0">
+                <Label Text="{x:Static res:LanguageResources.InternetFail}" FontSize="16" FontFamily="AgeoLight" HorizontalTextAlignment="Center"></Label>
+                <Image Source="wifioff.svg" HorizontalOptions="Center" WidthRequest="22" HeightRequest="22"></Image>
+            </VerticalStackLayout>
+
+            <!--Logo-->
+            <Image Source="logo.png" Margin="0,30,0,0" HorizontalOptions="Center" HeightRequest="100"></Image>
+            <Label FontSize="16" HorizontalOptions="Center" Text="{x:Static res:LanguageResources.Title}" FontFamily="AgeoBold"></Label>
+            <Label FontSize="20" HorizontalOptions="Center"  Text="10%"></Label>
+
+
+            <!--Currency Picker-->
+            
+                <Label Margin="0,0,0,0" HorizontalOptions="Center"
+                       Text="{x:Static res:LanguageResources.StandardCurrency}"
+                        FontFamily="AgeoBold"
+                   FontSize="16"/>
+                <Label Margin ="0,5,0,0" HorizontalOptions="Center"
+                       Text="{x:Static res:LanguageResources.UsageofCurrency}"
+                        FontAttributes="Italic"
+                        FontFamily="AgeoNormal"
+                   FontSize="12"/>
+
+            <Picker x:Name="CurrencyInUse" 
+                SelectedIndexChanged="OnPickerSelectedIndexChanged"
+                
+                Margin="0,20,20,0" FontSize="16" FontFamily="AgeoBold" Title="Choose your Currency" HorizontalTextAlignment="End" HorizontalOptions="End">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Euro</x:String>
+                        <x:String>Dollar</x:String>
+                        <x:String>Croatian Kuna</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <Frame Margin="10" BackgroundColor="#16181C" HasShadow="True" Padding="20" CornerRadius="20">
+                <StackLayout>
+                    <Label HorizontalOptions="CenterAndExpand" FontFamily="AgeoBold" TextColor="White" 
+                       FontSize="18" Text="{x:Static res:LanguageResources.InitialInvestment}"/>
+
+                    <Grid Margin="0.5">
+                        <Frame  Margin="15" HorizontalOptions="CenterAndExpand" BackgroundColor="#202327" WidthRequest="150"  CornerRadius="30" Padding="0" >
+                            <Entry Keyboard="Numeric" x:Name="IncomeInput" BackgroundColor="#202327"  TextColor="#0d1a21"  
+                              FontFamily="OpenSansRegular" FontSize="16" Placeholder="{x:Static res:LanguageResources.HowMuch}" HorizontalOptions="CenterAndExpand"  PlaceholderColor="#202327" />
+                        </Frame>
+
+                    </Grid>
+
+                    <Label  HorizontalOptions="CenterAndExpand" FontFamily="AgeoBold" TextColor="White" 
+                       FontSize="18" Text="{x:Static res:LanguageResources.Duration}"/>
+                    <Grid Margin="0.5">
+                        <Frame Opacity="1" Margin="10" HorizontalOptions="CenterAndExpand" BackgroundColor="#202327" WidthRequest="150"  CornerRadius="30" Padding="0" >
+                            <Entry Keyboard="Numeric" x:Name="MonthInput" BackgroundColor="#202327"  TextColor="#0d1a21"  
+                              FontFamily="OpenSansRegular" FontSize="16" Placeholder="{x:Static res:LanguageResources.HowLong}" HorizontalOptions="CenterAndExpand"  PlaceholderColor="#202327"/>
+                        </Frame>
+                    </Grid>
+
+                    <Button HorizontalOptions="Center" Margin="10" WidthRequest="150" HeightRequest="40" BackgroundColor="#00B2FF"
+                    Text="{x:Static res:LanguageResources.Calculate}" TextColor="White" FontFamily="AgeoBold" Clicked="Calculate"/>
+
+                </StackLayout>
+            </Frame>
+
+            <Label FontSize="16" HorizontalOptions="Center" Text="{x:Static res:LanguageResources.Results}" FontFamily="AgeoBold"></Label>
+
+            <!--Tabela Savings Calculator-->
+            <CollectionView ItemsSource="{Binding MonthlyIncomeCalculus}" ItemTemplate="{StaticResource AlternateRowColour}"/>
+            <!--Final Página-->
+        </VerticalStackLayout>
+
+    </ScrollView>
+</ContentPage>

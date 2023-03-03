@@ -1,0 +1,76 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BankingApp.LoginPage"
+             xmlns:res="clr-namespace:BankingApp.Resources"
+             BackgroundColor="#041014"
+             Shell.NavBarIsVisible="False">
+
+    <VerticalStackLayout>
+
+        <!--Internet Connection-->
+        <VerticalStackLayout x:Name="InternetFailure" Margin="0,10,0,0">
+            <Label Text="{x:Static res:LanguageResources.InternetFail}" FontSize="16" FontFamily="AgeoLight" HorizontalTextAlignment="Center"></Label>
+            <Image Source="wifioff.svg" HorizontalOptions="Center" WidthRequest="22" HeightRequest="22"></Image>
+        </VerticalStackLayout>
+
+
+        <!--Logo-->
+        <Image Source="logo.png" HeightRequest="250"></Image>
+
+        <!--Welcome + Please Login with your Information-->
+        <VerticalStackLayout>
+            <Label x:Name="Welcome" Text="{x:Static res:LanguageResources.Welcome}" FontSize="46" FontFamily="AgeoBold" HorizontalTextAlignment="Center"></Label>
+            <Label Text="{x:Static res:LanguageResources.LoginInformation}" FontSize="16" FontFamily="AgeoLight" HorizontalTextAlignment="Center"></Label>
+        </VerticalStackLayout>
+
+        <!--Login Box-->
+        <VerticalStackLayout>
+            <Frame Margin="10" BackgroundColor="#16181C" HasShadow="True" Padding="20" CornerRadius="20">
+                <StackLayout>
+                    <Grid>
+                        <Image Source="person.svg" Margin="0,0,110,0"></Image>
+                        <Label HorizontalOptions="CenterAndExpand" FontFamily="AgeoBold" TextColor="White" 
+                       FontSize="18" Text="{x:Static res:LanguageResources.Username}"/>
+                    </Grid>
+
+                    <Grid Margin="0.5">
+                        <Frame  Margin="15" HorizontalOptions="CenterAndExpand"  BackgroundColor="#202327" WidthRequest="250"  CornerRadius="30" Padding="0" >
+                            <Entry x:Name="UsernameEntry" BackgroundColor="#202327"  TextColor="#71767B"  
+                              FontFamily="AgeoLight" FontSize="16" Placeholder="{x:Static res:LanguageResources.EnterUsername}" HorizontalOptions="CenterAndExpand"  PlaceholderColor="#202327" />
+                        </Frame>
+                    </Grid>
+                    <Grid>
+                        <Image Source="password.svg" HeightRequest="24" Margin="0,0,150,0"></Image>
+                        <Label  HorizontalOptions="CenterAndExpand" FontFamily="AgeoBold" TextColor="White" 
+                       FontSize="18" Text="{x:Static res:LanguageResources.Password}"/>
+                    </Grid>
+                    <Grid Margin="0.5">
+                        <Frame Opacity="1" Margin="10" HorizontalOptions="CenterAndExpand"  BackgroundColor="#202327" WidthRequest="250"  CornerRadius="30" Padding="0" >
+                            <Entry x:Name="PasswordEntry" BackgroundColor="#202327"  TextColor="#71767B"  
+                              FontFamily="AgeoLight" FontSize="16" Placeholder="{x:Static res:LanguageResources.EnterPassword}" HorizontalOptions="CenterAndExpand"  PlaceholderColor="#202327" IsPassword="True"/>
+                        </Frame>
+                    </Grid>
+
+                    <Button x:Name="btnLogin" VerticalOptions="End" Margin="0,10" WidthRequest="100" BackgroundColor="#2080dc"
+                    Text="{x:Static res:LanguageResources.SignIn}" TextColor="White" FontFamily="AgeoBold" Clicked="LoginButton"/>
+                </StackLayout>
+            </Frame>
+        </VerticalStackLayout>
+        <Grid>
+            <Button HorizontalOptions="Start" Margin="10" WidthRequest="150" HeightRequest="40" BackgroundColor="#00B2FF"
+                    Text="{x:Static res:LanguageResources.RecoverPassword}" TextColor="White" FontFamily="AgeoBold"/>
+            <Button HorizontalOptions="End" Margin="10" WidthRequest="150" HeightRequest="40" BackgroundColor="#00B2FF"
+                    Text="{x:Static res:LanguageResources.CreateAccount}" TextColor="White" FontFamily="AgeoBold" />
+        </Grid>
+
+
+        <!--Bottom-->
+        <Grid Margin="30" HeightRequest="100" VerticalOptions="End">
+            <Image Source="erasmus.png"  HeightRequest="40"  VerticalOptions="End" HorizontalOptions="StartAndExpand"/>
+            <Image Source="camoes.png"  HeightRequest="40" VerticalOptions="End"  HorizontalOptions="EndAndExpand"/>
+        </Grid>
+
+    </VerticalStackLayout>
+
+   
+</ContentPage>

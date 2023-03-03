@@ -1,0 +1,328 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BankingApp</name>
+    </assembly>
+    <members>
+        <member name="T:BankingApp.Resources.LanguageResources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.AccountBalance">
+            <summary>
+              Looks up a localized string similar to Account Balance:.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.Calculate">
+            <summary>
+              Looks up a localized string similar to Calculate!.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.Calculator">
+            <summary>
+              Looks up a localized string similar to Calculator.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.CheckWebsite">
+            <summary>
+              Looks up a localized string similar to Check our Website!.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.ChooseCurrency">
+            <summary>
+              Looks up a localized string similar to Choose a Currency.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.CreateAccount">
+            <summary>
+              Looks up a localized string similar to Create Account.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.Duration">
+            <summary>
+              Looks up a localized string similar to Duration of Investment.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.EnterPassword">
+            <summary>
+              Looks up a localized string similar to Please enter your Password.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.EnterUsername">
+            <summary>
+              Looks up a localized string similar to Please enter your Username.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.ErasmusWebsite">
+            <summary>
+              Looks up a localized string similar to Erasmus Website.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.HowLong">
+            <summary>
+              Looks up a localized string similar to For how Long?.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.HowMuch">
+            <summary>
+              Looks up a localized string similar to How Much?.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.IncomewithRate">
+            <summary>
+              Looks up a localized string similar to Income with Rate.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.InitialInvestment">
+            <summary>
+              Looks up a localized string similar to Initial Investment.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.InternetFail">
+            <summary>
+              Looks up a localized string similar to Please connect to the internet!.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.LandingPageText">
+            <summary>
+              Looks up a localized string similar to Welcome to the E-School Banking Mobile App!.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.LastTransaction">
+            <summary>
+              Looks up a localized string similar to Your Last Transactions:.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.LetsGetStarted">
+            <summary>
+              Looks up a localized string similar to Let&apos;s start!.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.LoginInformation">
+            <summary>
+              Looks up a localized string similar to Please login with your information!.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.LogOut">
+            <summary>
+              Looks up a localized string similar to Log Out.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.MakeTransaction">
+            <summary>
+              Looks up a localized string similar to Make a Transaction.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.ManageProfile">
+            <summary>
+              Looks up a localized string similar to Manage your Profile.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.Month">
+            <summary>
+              Looks up a localized string similar to Month.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.Name">
+            <summary>
+              Looks up a localized string similar to Name:.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.NeedHelp">
+            <summary>
+              Looks up a localized string similar to Need Help?.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.Password">
+            <summary>
+              Looks up a localized string similar to Password.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.RecoverPassword">
+            <summary>
+              Looks up a localized string similar to Recover Password.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.Results">
+            <summary>
+              Looks up a localized string similar to Here are your Results.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.SavingsCalculator">
+            <summary>
+              Looks up a localized string similar to Invest your Savings!.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.SeeMore">
+            <summary>
+              Looks up a localized string similar to See More.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.SignIn">
+            <summary>
+              Looks up a localized string similar to Sign In.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.StandardCurrency">
+            <summary>
+              Looks up a localized string similar to Standard Currency: Euro.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.Surname">
+            <summary>
+              Looks up a localized string similar to Surname:.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.Title">
+            <summary>
+              Looks up a localized string similar to Savings Calculator! Current interest rate:.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.Transactions">
+            <summary>
+              Looks up a localized string similar to Transactions.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.UsageofCurrency">
+            <summary>
+              Looks up a localized string similar to You are only able to convert the end results into another currency. All calculus are made in euros..
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.UseaCalculator">
+            <summary>
+              Looks up a localized string similar to Use a Calculator!.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.UseaSavingsCalculator">
+            <summary>
+              Looks up a localized string similar to Try our Savings Calculator!.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.Username">
+            <summary>
+              Looks up a localized string similar to Username.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.Welcome">
+            <summary>
+              Looks up a localized string similar to Welcome!.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.YourAccount">
+            <summary>
+              Looks up a localized string similar to Your Account.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_DatePicker.TextColorTo(Microsoft.Maui.Controls.DatePicker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Editor.TextColorTo(Microsoft.Maui.Controls.Editor,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Entry.TextColorTo(Microsoft.Maui.Controls.Entry,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Label.TextColorTo(Microsoft.Maui.Controls.Label,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Picker.TextColorTo(Microsoft.Maui.Controls.Picker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_RadioButton.TextColorTo(Microsoft.Maui.Controls.RadioButton,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_SearchBar.TextColorTo(Microsoft.Maui.Controls.SearchBar,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_TimePicker.TextColorTo(Microsoft.Maui.Controls.TimePicker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+    </members>
+</doc>

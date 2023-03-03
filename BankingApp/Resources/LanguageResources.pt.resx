@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountBalance" xml:space="preserve">
+    <value>Saldo de Conta:</value>
+  </data>
+  <data name="Calculate" xml:space="preserve">
+    <value>Calcular!</value>
+  </data>
+  <data name="Calculator" xml:space="preserve">
+    <value>Calculadora</value>
+  </data>
+  <data name="CheckWebsite" xml:space="preserve">
+    <value>Vê o nosso Website!</value>
+  </data>
+  <data name="ChooseCurrency" xml:space="preserve">
+    <value>Escolhe uma moeda</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="CreateAccount" xml:space="preserve">
+    <value>Criar Conta</value>
+  </data>
+  <data name="DateTime" xml:space="preserve">
+    <value>Data de Transação:</value>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>Duração de Investimento:</value>
+  </data>
+  <data name="EnterPassword" xml:space="preserve">
+    <value>Insira a sua palavra-passe</value>
+  </data>
+  <data name="EnterUsername" xml:space="preserve">
+    <value>Insira o seu username</value>
+  </data>
+  <data name="ErasmusWebsite" xml:space="preserve">
+    <value>Website Erasmus</value>
+  </data>
+  <data name="FirstLastNameRecipient" xml:space="preserve">
+    <value>Primeiro e Último Nome do Recipiente</value>
+  </data>
+  <data name="Hello" xml:space="preserve">
+    <value>Olá</value>
+  </data>
+  <data name="HowLong" xml:space="preserve">
+    <value>Quanto tempo?</value>
+  </data>
+  <data name="HowMuch" xml:space="preserve">
+    <value>Quanto dinheiro?</value>
+  </data>
+  <data name="IBANPayer" xml:space="preserve">
+    <value>O seu IBAN:</value>
+  </data>
+  <data name="IBANRecipient" xml:space="preserve">
+    <value>IBAN do Recipiente:</value>
+  </data>
+  <data name="IncomewithRate" xml:space="preserve">
+    <value>Retorno com taxa:</value>
+  </data>
+  <data name="InitialInvestment" xml:space="preserve">
+    <value>Investimento inicial</value>
+  </data>
+  <data name="InsertAmount" xml:space="preserve">
+    <value>Insira a quantia</value>
+  </data>
+  <data name="InsertIBANRecipient" xml:space="preserve">
+    <value>Insira o IBAN do Recipiente</value>
+  </data>
+  <data name="InsertNameRecipient" xml:space="preserve">
+    <value>Insira o Nome do Recipiente</value>
+  </data>
+  <data name="InsertPaymentDescription" xml:space="preserve">
+    <value>Insira uma Descrição à Transação</value>
+  </data>
+  <data name="InternetFail" xml:space="preserve">
+    <value>Por favor conecte-se ao wifi!</value>
+  </data>
+  <data name="LandingPageText" xml:space="preserve">
+    <value>Bem-Vindo à Aplicação E-School Banking</value>
+  </data>
+  <data name="LastTransaction" xml:space="preserve">
+    <value>Últimas Transações</value>
+  </data>
+  <data name="LetsGetStarted" xml:space="preserve">
+    <value>Vamos começar!</value>
+  </data>
+  <data name="LoginInformation" xml:space="preserve">
+    <value>Por favor insira os seus dados</value>
+  </data>
+  <data name="LogOut" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="MakeTransaction" xml:space="preserve">
+    <value>Fazer Transação</value>
+  </data>
+  <data name="ManageProfile" xml:space="preserve">
+    <value>Editar perfil</value>
+  </data>
+  <data name="Month" xml:space="preserve">
+    <value>Mês</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nome:</value>
+  </data>
+  <data name="NeedHelp" xml:space="preserve">
+    <value>Precisa de ajuda?</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Palavra-Passe</value>
+  </data>
+  <data name="PaymentDescription" xml:space="preserve">
+    <value>Descrição de Transação:</value>
+  </data>
+  <data name="RecipientName" xml:space="preserve">
+    <value>Nome do Recipiente:</value>
+  </data>
+  <data name="RecoverPassword" xml:space="preserve">
+    <value>Recuperar Palavra-Passe</value>
+  </data>
+  <data name="ReferenceNumber" xml:space="preserve">
+    <value>Número de Referência:</value>
+  </data>
+  <data name="Results" xml:space="preserve">
+    <value>Os seus resultados:</value>
+  </data>
+  <data name="SavingsCalculator" xml:space="preserve">
+    <value>Invista as suas poupanças!</value>
+  </data>
+  <data name="SeeMore" xml:space="preserve">
+    <value>Ver mais.</value>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value>Log in</value>
+  </data>
+  <data name="StandardCurrency" xml:space="preserve">
+    <value>Moeda base: Euro</value>
+  </data>
+  <data name="Surname" xml:space="preserve">
+    <value>Apelido:</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Calculadora Poupança! Atual taxa de retorno:</value>
+  </data>
+  <data name="TransactionAmount" xml:space="preserve">
+    <value>Quantia transferida:</value>
+  </data>
+  <data name="TransactionDetails" xml:space="preserve">
+    <value>Detalhes da Transação:</value>
+  </data>
+  <data name="TransactionModel" xml:space="preserve">
+    <value>Modelo:</value>
+  </data>
+  <data name="Transactions" xml:space="preserve">
+    <value>Transações</value>
+  </data>
+  <data name="TransactionSuccess" xml:space="preserve">
+    <value>Transação feita com sucesso!</value>
+  </data>
+  <data name="UsageofCurrency" xml:space="preserve">
+    <value>Apenas é possível converter os resultados finais para outra moeda. Todo o cálculo é feito em euro.</value>
+  </data>
+  <data name="UseaCalculator" xml:space="preserve">
+    <value>Use a calculadora!</value>
+  </data>
+  <data name="UseaSavingsCalculator" xml:space="preserve">
+    <value>Experimente a Calculadora Poupança!</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Bem-Vindo!</value>
+  </data>
+  <data name="WhichAccountAreYouUsing" xml:space="preserve">
+    <value>Que conta irá utilizar?</value>
+  </data>
+  <data name="YourAccount" xml:space="preserve">
+    <value>A sua Conta</value>
+  </data>
+</root>

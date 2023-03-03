@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:BankingApp"
+             xmlns:res="clr-namespace:BankingApp.Resources"
+             x:Class="BankingApp.Views.ChooseActiveAccountPage"
+             BackgroundColor="#041014"
+             Title="ChooseActiveAccountPage">
+
+    <VerticalStackLayout>
+
+
+        <!--Name Surname-->
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0,20,0,0">
+            <Label FontFamily="AgeoBold" Text="{x:Static res:LanguageResources.Hello} " FontSize="42" VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" TextColor="#00B2FF"/>
+            <Label x:Name="nameLabel"
+                   FontFamily="AgeoBold"
+                   FontSize="32"
+                HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="EndAndExpand"
+                Text= "{Binding nameLabel.Text}"/>
+            <Label x:Name="surnameLabel"
+                   FontSize="32"
+                   FontFamily="AgeoBold"
+                   VerticalOptions="EndAndExpand"
+                   HorizontalOptions="CenterAndExpand"
+                Text="{Binding surnameLabel.Text}" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0,5,0,0">
+        </StackLayout>
+
+        <Label FontFamily="AgeoBold" Text="{x:Static res:LanguageResources.WhichAccountAreYouUsing}"  HorizontalOptions="Center" FontSize="Large" Margin="5,30,0,0"/>
+        
+        <!--Account List View-->
+        <StackLayout Margin="10">
+            <ListView x:Name="accountsListView" ItemsSource="{Binding Account}" ItemSelected="OnAccountSelected" Margin="10" BackgroundColor="#16181C">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout>
+                                <Label Text="{Binding iban}" FontSize="Medium" />
+                                <Label Text="{Binding account_type}" FontSize="Small" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <Button Text="{x:Static res:LanguageResources.Continue}" FontSize="16" FontFamily="AgeoBold" WidthRequest="200"  Clicked="OnContinueButtonClicked" BackgroundColor="#00B2FF" Margin="20" />
+
+        </StackLayout>
+
+    </VerticalStackLayout>
+</ContentPage>

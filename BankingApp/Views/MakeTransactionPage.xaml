@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:res="clr-namespace:BankingApp.Resources"
+             x:Class="BankingApp.Views.MakeTransactionPage"
+             Title="MakeTransactionPage">
+    
+    <VerticalStackLayout>
+
+
+        <Label Margin="0,20,0,40" Text="{x:Static res:LanguageResources.MakeTransaction}" HorizontalOptions="Center" FontSize="36" FontFamily="AgeoBold" TextColor="White" />
+
+        <Label Margin="0,20,0,0" Text="{x:Static res:LanguageResources.IBANRecipient}" HorizontalOptions="Center" FontSize="20" FontFamily="AgeoBold" TextColor="White" />
+
+        <Frame  Margin="15" HorizontalOptions="CenterAndExpand"  BackgroundColor="#202327" WidthRequest="250"  CornerRadius="30" Padding="0" >
+            <Entry x:Name="ibanRecipientEntry" 
+               BackgroundColor="#202327"  
+               TextColor="#71767B"  
+               FontFamily="AgeoLight" 
+               FontSize="16" 
+               WidthRequest="200"
+               HorizontalTextAlignment="Center"  
+               Placeholder="{x:Static res:LanguageResources.InsertIBANRecipient}" 
+               HorizontalOptions="CenterAndExpand"  
+               PlaceholderColor="#202327" />
+        </Frame>
+
+        <Label Margin="0,20,0,0" Text="{x:Static res:LanguageResources.TransactionAmount}" HorizontalOptions="Center" FontSize="20" FontFamily="AgeoBold" TextColor="White" />
+
+        <Frame  Margin="15" HorizontalOptions="CenterAndExpand"  BackgroundColor="#202327" WidthRequest="250"  CornerRadius="30" Padding="0" >
+            <Entry x:Name="amountEntry" 
+               BackgroundColor="#202327"  
+               TextColor="#71767B"  
+               FontFamily="AgeoLight" 
+               FontSize="16" 
+               WidthRequest="200"
+               HorizontalTextAlignment="Center"
+               Placeholder="{x:Static res:LanguageResources.InsertAmount}" 
+               HorizontalOptions="Center"  
+               PlaceholderColor="#202327"/>
+        </Frame>
+
+        <Label Margin="0,20,0,0" Text="{x:Static res:LanguageResources.PaymentDescription}" HorizontalOptions="Center" FontSize="20" FontFamily="AgeoBold" TextColor="White" />
+        
+        <Frame  Margin="15" HorizontalOptions="CenterAndExpand"  BackgroundColor="#202327" WidthRequest="250"  CornerRadius="30" Padding="0" >
+            <Entry x:Name="paymentDescriptionEntry" 
+               BackgroundColor="#202327"  
+               TextColor="#71767B"  
+               FontFamily="AgeoLight" 
+               FontSize="16" 
+               WidthRequest="200"
+               HorizontalTextAlignment="Center" 
+               Placeholder="{x:Static res:LanguageResources.InsertPaymentDescription}" 
+               HorizontalOptions="CenterAndExpand"  
+               PlaceholderColor="#202327"/>
+        </Frame>
+
+        <Label Margin="0,20,0,0" Text="{x:Static res:LanguageResources.FirstLastNameRecipient}" HorizontalOptions="Center" FontSize="20" FontFamily="AgeoBold" TextColor="White" />
+        
+        <Frame  Margin="15" HorizontalOptions="CenterAndExpand"  BackgroundColor="#202327" WidthRequest="250"  CornerRadius="30" Padding="0" >
+            <Entry x:Name="nameRecipientEntry" 
+               BackgroundColor="#202327"  
+               TextColor="#71767B"  
+               FontFamily="AgeoLight" 
+               FontSize="16" 
+               WidthRequest="200"
+               HorizontalTextAlignment="Center" 
+               Placeholder="{x:Static res:LanguageResources.InsertNameRecipient}" 
+               HorizontalOptions="CenterAndExpand"  
+               PlaceholderColor="#202327" />
+        </Frame>
+
+        <Button x:Name="MakeTransaction" VerticalOptions="End" Margin="0,10" WidthRequest="150" HeightRequest="50" BackgroundColor="#2080dc"
+                    Text="{x:Static res:LanguageResources.Continue}" TextColor="White" FontSize="20" FontFamily="AgeoBold" Clicked="MakeTransactionButton"/>
+    </VerticalStackLayout>
+</ContentPage>
