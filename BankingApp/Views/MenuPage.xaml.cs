@@ -10,9 +10,8 @@ using Newtonsoft.Json.Linq;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Xml;
-using BankingApp.Views;
 
-namespace BankingApp
+namespace BankingApp.Views
 {
     public partial class MenuPage : ContentPage, INotifyPropertyChanged
     {

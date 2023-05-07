@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Et+D50DBKJmfErs/OT7hyg+3J5ci8VKQ9PA847N7bZz7F1JSqPJnFGH4S+YC1iwuguWRwjVmxn5dKOgJ/E/tJA==",
+  "dgSpecHash": "k6Oum3+z+kbQR1MBkS0z89kceirDD20MOW4PuFrszYCMhCFggHtWeob0teXQlRUuchFL2yv09IvOP8VkoBHvZw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Diogo Brissos\\Desktop\\BankingApp Backup\\BankingApp\\BankingApp.csproj",
+  "projectFilePath": "C:\\Users\\Diogo Brissos\\Desktop\\BankingApp\\BankingApp\\ESchoolBanking\\BankingApp\\BankingApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Diogo Brissos\\.nuget\\packages\\communitytoolkit.maui\\4.0.0\\communitytoolkit.maui.4.0.0.nupkg.sha512",
     "C:\\Users\\Diogo Brissos\\.nuget\\packages\\communitytoolkit.maui.core\\4.0.0\\communitytoolkit.maui.core.4.0.0.nupkg.sha512",

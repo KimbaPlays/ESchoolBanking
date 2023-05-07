@@ -4,15 +4,26 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:BankingApp"
-    xmlns:views="clr-namespace:BankingApp.Views" IsBusy="False" NavigationPage.HasBackButton="False"
->
+    xmlns:views="clr-namespace:BankingApp.Views" IsBusy="False" NavigationPage.HasBackButton="False">
+    
     <ShellItem Route="LandingPage" Shell.NavBarIsVisible="False">
-        <ShellContent ContentTemplate="{DataTemplate local:LandingPage}"/>
+        <ShellContent ContentTemplate="{DataTemplate views:LandingPage}"/>
     </ShellItem>
     <ShellItem Route="LoginPage" Shell.NavBarIsVisible="False">
-        <ShellContent ContentTemplate="{DataTemplate local:LoginPage}"/>
+        <ShellContent ContentTemplate="{DataTemplate views:LoginPage}"/>
     </ShellItem>
     <ShellItem Route="ChooseActiveAccountPage" Shell.NavBarIsVisible="False">
         <ShellContent ContentTemplate="{DataTemplate views:ChooseActiveAccountPage}"/>
     </ShellItem>
+    
+    <ShellItem Route="MenuPage" Shell.NavBarIsVisible="True">
+        <ShellContent ContentTemplate="{DataTemplate views:MenuPage}"/>
+    </ShellItem>
+    <ShellItem Route="MakeTransactionPage" Shell.NavBarIsVisible="False">
+        <ShellContent ContentTemplate="{DataTemplate views:MakeTransactionPage}"/>
+    </ShellItem>
+    <ShellItem Route="TransactionSuccess" Shell.NavBarIsVisible="False">
+        <ShellContent ContentTemplate="{DataTemplate views:TransactionSuccess}"/>
+    </ShellItem>
+
 </Shell>

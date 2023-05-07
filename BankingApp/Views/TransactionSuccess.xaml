@@ -18,7 +18,7 @@
                 <Label x:Name="paymentDescriptionLabel" Text="{x:Static res:LanguageResources.PaymentDescription} " />
                 <Label x:Name="modelLabel" Text="{x:Static res:LanguageResources.TransactionModel}" />
                 <Label x:Name="referenceNumberLabel" Text="{x:Static res:LanguageResources.ReferenceNumber}" />
-                <Label x:Name="dateTimeLabel" Text="{x:Static res:LanguageResources.DateTime " />
+                <Label x:Name="dateTimeLabel" Text="{x:Static res:LanguageResources.DateTime}" />
                 <Label x:Name="amountLabel" Text="{x:Static res:LanguageResources.TransactionAmount} " />
             </StackLayout>
         </StackLayout>

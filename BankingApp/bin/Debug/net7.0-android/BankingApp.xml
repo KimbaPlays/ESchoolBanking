@@ -45,9 +45,19 @@
               Looks up a localized string similar to Choose a Currency.
             </summary>
         </member>
+        <member name="P:BankingApp.Resources.LanguageResources.Continue">
+            <summary>
+              Looks up a localized string similar to Continue.
+            </summary>
+        </member>
         <member name="P:BankingApp.Resources.LanguageResources.CreateAccount">
             <summary>
               Looks up a localized string similar to Create Account.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.DateTime">
+            <summary>
+              Looks up a localized string similar to Date of Transaction:.
             </summary>
         </member>
         <member name="P:BankingApp.Resources.LanguageResources.Duration">
@@ -70,6 +80,16 @@
               Looks up a localized string similar to Erasmus Website.
             </summary>
         </member>
+        <member name="P:BankingApp.Resources.LanguageResources.FirstLastNameRecipient">
+            <summary>
+              Looks up a localized string similar to First and Last Name of Recipient.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.Hello">
+            <summary>
+              Looks up a localized string similar to Hello.
+            </summary>
+        </member>
         <member name="P:BankingApp.Resources.LanguageResources.HowLong">
             <summary>
               Looks up a localized string similar to For how Long?.
@@ -80,6 +100,16 @@
               Looks up a localized string similar to How Much?.
             </summary>
         </member>
+        <member name="P:BankingApp.Resources.LanguageResources.IBANPayer">
+            <summary>
+              Looks up a localized string similar to IBAN Payer:.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.IBANRecipient">
+            <summary>
+              Looks up a localized string similar to IBAN Recipient:.
+            </summary>
+        </member>
         <member name="P:BankingApp.Resources.LanguageResources.IncomewithRate">
             <summary>
               Looks up a localized string similar to Income with Rate.
@@ -88,6 +118,26 @@
         <member name="P:BankingApp.Resources.LanguageResources.InitialInvestment">
             <summary>
               Looks up a localized string similar to Initial Investment.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.InsertAmount">
+            <summary>
+              Looks up a localized string similar to Insert Amount.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.InsertIBANRecipient">
+            <summary>
+              Looks up a localized string similar to Insert IBAN of the Recipient.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.InsertNameRecipient">
+            <summary>
+              Looks up a localized string similar to Insert Name of Recipient.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.InsertPaymentDescription">
+            <summary>
+              Looks up a localized string similar to Insert Payment Description.
             </summary>
         </member>
         <member name="P:BankingApp.Resources.LanguageResources.InternetFail">
@@ -150,9 +200,24 @@
               Looks up a localized string similar to Password.
             </summary>
         </member>
+        <member name="P:BankingApp.Resources.LanguageResources.PaymentDescription">
+            <summary>
+              Looks up a localized string similar to Payment Description:.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.RecipientName">
+            <summary>
+              Looks up a localized string similar to Recipient Name:.
+            </summary>
+        </member>
         <member name="P:BankingApp.Resources.LanguageResources.RecoverPassword">
             <summary>
               Looks up a localized string similar to Recover Password.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.ReferenceNumber">
+            <summary>
+              Looks up a localized string similar to Reference Number:.
             </summary>
         </member>
         <member name="P:BankingApp.Resources.LanguageResources.Results">
@@ -190,9 +255,29 @@
               Looks up a localized string similar to Savings Calculator! Current interest rate:.
             </summary>
         </member>
+        <member name="P:BankingApp.Resources.LanguageResources.TransactionAmount">
+            <summary>
+              Looks up a localized string similar to Transaction Amount.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.TransactionDetails">
+            <summary>
+              Looks up a localized string similar to Transaction Details.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.TransactionModel">
+            <summary>
+              Looks up a localized string similar to Model:.
+            </summary>
+        </member>
         <member name="P:BankingApp.Resources.LanguageResources.Transactions">
             <summary>
               Looks up a localized string similar to Transactions.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.TransactionSuccess">
+            <summary>
+              Looks up a localized string similar to Transaction Successful!.
             </summary>
         </member>
         <member name="P:BankingApp.Resources.LanguageResources.UsageofCurrency">
@@ -218,6 +303,11 @@
         <member name="P:BankingApp.Resources.LanguageResources.Welcome">
             <summary>
               Looks up a localized string similar to Welcome!.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.WhichAccountAreYouUsing">
+            <summary>
+              Looks up a localized string similar to Which account will you be using?.
             </summary>
         </member>
         <member name="P:BankingApp.Resources.LanguageResources.YourAccount">
