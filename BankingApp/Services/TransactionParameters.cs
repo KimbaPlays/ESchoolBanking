@@ -36,14 +36,14 @@ namespace BankingApp.Services
         [JsonProperty("reference_number")]
         public string reference_number { get; set; }
 
-        [JsonProperty("date_time")]
-        public string date_time { get; set; }
-
         [JsonProperty("amount")]
         public string amount { get; set; }
 
         [JsonProperty("currency")]
         public string currency { get; set; }
+        [JsonProperty("date_time")]
+        public string date_time { get; set; }
+
 
     }
 }

@@ -156,6 +156,9 @@
   <data name="FirstLastNameRecipient" xml:space="preserve">
     <value>Primeiro e Último Nome do Recipiente</value>
   </data>
+  <data name="GoToLoans" xml:space="preserve">
+    <value>Empréstimos</value>
+  </data>
   <data name="Hello" xml:space="preserve">
     <value>Olá</value>
   </data>
@@ -188,6 +191,9 @@
   </data>
   <data name="InsertPaymentDescription" xml:space="preserve">
     <value>Insira uma Descrição à Transação</value>
+  </data>
+  <data name="InternalReferenceNumber" xml:space="preserve">
+    <value>Número de Referência Interno</value>
   </data>
   <data name="InternetFail" xml:space="preserve">
     <value>Por favor conecte-se ao wifi!</value>
@@ -293,5 +299,8 @@
   </data>
   <data name="YourAccount" xml:space="preserve">
     <value>A sua Conta</value>
+  </data>
+  <data name="YourLoan" xml:space="preserve">
+    <value>O teu Empréstimo</value>
   </data>
 </root>

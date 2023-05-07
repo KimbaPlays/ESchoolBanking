@@ -1,7 +1,8 @@
 ﻿using BankingApp.Models;
 using BankingApp.Services;
+using BankingApp.Views;
 
-namespace BankingApp.Views;
+namespace BankingApp;
 
 public partial class LoginPage : ContentPage
 {

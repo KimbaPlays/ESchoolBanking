@@ -1,17 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Net.Http;
-using BankingApp.Models;
-using Microsoft.Maui.Controls;
-using BankingApp.Services;
-using Microsoft.Maui.Controls.Xaml;
-using Newtonsoft.Json.Linq;
-using System.Collections.ObjectModel;
-using System.ComponentModel;
-using System.Xml;
-
-namespace BankingApp.Views;
+namespace BankingApp;
 
 public partial class LandingPage : ContentPage
 {

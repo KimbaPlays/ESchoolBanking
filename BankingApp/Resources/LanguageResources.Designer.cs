@@ -178,6 +178,15 @@ namespace BankingApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Your Loans.
+        /// </summary>
+        public static string GoToLoans {
+            get {
+                return ResourceManager.GetString("GoToLoans", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Hello.
         /// </summary>
         public static string Hello {
@@ -273,6 +282,15 @@ namespace BankingApp.Resources {
         public static string InsertPaymentDescription {
             get {
                 return ResourceManager.GetString("InsertPaymentDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Internal Reference Number.
+        /// </summary>
+        public static string InternalReferenceNumber {
+            get {
+                return ResourceManager.GetString("InternalReferenceNumber", resourceCulture);
             }
         }
         
@@ -588,6 +606,15 @@ namespace BankingApp.Resources {
         public static string YourAccount {
             get {
                 return ResourceManager.GetString("YourAccount", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your Loan.
+        /// </summary>
+        public static string YourLoan {
+            get {
+                return ResourceManager.GetString("YourLoan", resourceCulture);
             }
         }
     }

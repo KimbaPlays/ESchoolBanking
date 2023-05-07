@@ -9,6 +9,13 @@ using System.Collections.ObjectModel;
 
 namespace BankingApp.Services
 {
+
+    //public class AccountBalance
+    //{
+    //    [JsonProperty("AccountBalance")]
+    //    public string AccountBalance { get; set; }
+    //}
+
     public class Account
     {
         [JsonProperty("iban")]

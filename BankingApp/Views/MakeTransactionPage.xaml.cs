@@ -5,9 +5,9 @@ using BankingApp.Models;
 using BankingApp.Services;
 using BankingApp.Views;
 using System.Globalization;
+using System.Diagnostics;
 
 namespace BankingApp.Views;
-
 public partial class MakeTransactionPage : ContentPage
 {
     // Variables for the Reference Number
@@ -18,7 +18,6 @@ public partial class MakeTransactionPage : ContentPage
 
     //ID Client Variable for later
     string currentid_client = App.ActiveAccount.id_client_account.ToString();
-
     public MakeTransactionPage()
     {
         InitializeComponent();
@@ -45,18 +44,19 @@ public partial class MakeTransactionPage : ContentPage
         int random2 = random.Next(10);
         int random3 = random.Next(10);
 
-        string referenceNumber = $"{yearLastDigit}{monthLastDigit}{dayLastDigit}-{random1}{random2}{random3}";
+        string internalreferenceNumber = $"{yearLastDigit}{monthLastDigit}{dayLastDigit}-{random1}{random2}{random3}";
 
     }
 
     //Make the Transaction
-    public async Task MakePaymentAsync(string currentid_client, string ibanPayer, string ibanRecipient, string nameRecipient, string paymentDescription, string model, string referenceNumber, DateTime dateTime, decimal amountValue)
+    public async Task MakePaymentAsync(string currentid_client, string ibanPayer, string ibanRecipient, string nameRecipient, string paymentDescription, string model, string referenceNumber, decimal amountValue)
     {
         // Create a new HttpClient instance
         HttpClient client = new HttpClient();
 
         // Set the API endpoint URL
-        string url = $"https://app.eschoolbank.com/api/mobile_app/post_transaction.php?id_client={currentid_client}&iban_payer={ibanPayer}&iban_recipient={ibanRecipient}&name_recipient={nameRecipient}&payment_description={paymentDescription}&model={model}&reference_number={referenceNumber}&date_time={dateTime}&amount={amountValue}";
+        string url = $"https://app.eschoolbank.com/api/mobile_app/post_transaction.php?id_client={currentid_client}&iban_payer={ibanPayer}&iban_recipient={ibanRecipient}&name_recipient={nameRecipient}&payment_description={paymentDescription}&model={model}&reference_number={referenceNumber}&amount={amountValue}";
+        client.BaseAddress = new Uri(url);
 
         // Create an anonymous object to hold the payment parameters
         var paymentData = new
@@ -68,7 +68,6 @@ public partial class MakeTransactionPage : ContentPage
             paymentDescription,
             model,
             referenceNumber,
-            dateTime,
             amountValue
         };
 
@@ -82,41 +81,56 @@ public partial class MakeTransactionPage : ContentPage
         // Send the POST request to the API endpoint
         HttpResponseMessage response = await client.SendAsync(request);
 
+        Debug.WriteLine("Hello World1");
+
         // Check if the response was successful (status code in the range 200-299)
         if (response.IsSuccessStatusCode)
         {
-            // Payment was successful
-            await DisplayAlert("Success!", "The transaction you made was successful.", "Ok.");
-            await Navigation.PushAsync(new TransactionSuccess(paymentData));
+            string content = response.Content.ReadAsStringAsync().Result;
+            var hector = JsonConvert.DeserializeObject<LoginResult>(content);
+
+            if (hector.status.ToString() == "500")
+            {
+                await DisplayAlert("Fail!", hector.msg.ToString(), "Ok.");
+            }
+            else if (hector.status.ToString() == "200")
+            {
+                await DisplayAlert("Success!", "The transaction you made was successful.", "Ok.");
+                await Navigation.PushAsync(new TransactionSuccess(paymentData));
+            }
+
         }
+
         else
         {
             // Payment failed
             await DisplayAlert("Something went wrong...", "The transaction did not go through... try again", "Ok.");
-            Console.WriteLine($"Payment failed with status code {response.StatusCode}");
+            Debug.WriteLine($"Payment failed with status code {response.StatusCode}");
+            Debug.WriteLine(response);
+
         }
     }
 
     public async void MakeTransactionButton(object sender, EventArgs e)
     {
-     
+
         //Retrieve the payment data from other sources
         string iban = App.ActiveAccount.iban;
 
         // Generate a reference number
         GetDaTime();
         GenerateReferenceNumber();
-        string referenceNumber = $"{yearLastDigit}{monthLastDigit}{dayLastDigit}-{random.Next(10)}{random.Next(10)}{random.Next(10)}";
 
         // Retrieve the payment data from the input labels
+
         string id_client = currentid_client;
         string ibanPayer = iban;
         string ibanRecipient = ibanRecipientEntry.Text;
         string nameRecipient = nameRecipientEntry.Text;
         string paymentDescription = paymentDescriptionEntry.Text;
-        string model = "Yes";
-        DateTime dateTime = DateTime.Now ;
+        string model = modelEntry.Text;
         string amountValue = amountEntry.Text.ToString();
+        string referenceNumber = referencenumberEntry.Text.ToString();
 
         // Validate the input data
         if (string.IsNullOrWhiteSpace(ibanRecipient))
@@ -145,6 +159,6 @@ public partial class MakeTransactionPage : ContentPage
 
 
         // Call the MakePaymentAsync method with the payment data
-        await MakePaymentAsync(id_client, ibanPayer, ibanRecipient, nameRecipient, paymentDescription, model, referenceNumber, dateTime, amount);
+        await MakePaymentAsync(id_client, ibanPayer, ibanRecipient, nameRecipient, paymentDescription, model, referenceNumber, amount);
     }
 }

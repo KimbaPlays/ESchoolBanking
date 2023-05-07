@@ -20,6 +20,8 @@
                 <Label x:Name="referenceNumberLabel" Text="{x:Static res:LanguageResources.ReferenceNumber}" />
                 <Label x:Name="dateTimeLabel" Text="{x:Static res:LanguageResources.DateTime}" />
                 <Label x:Name="amountLabel" Text="{x:Static res:LanguageResources.TransactionAmount} " />
+                <!--<Label x:Name="internalreferencenumberLabel" Text="{x:Static res:LanguageResources.InternalReferenceNumber} " />-->
+
             </StackLayout>
         </StackLayout>
     </VerticalStackLayout>

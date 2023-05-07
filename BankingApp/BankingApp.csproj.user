@@ -3,7 +3,7 @@
   <PropertyGroup>
     <ActiveDebugFramework>net7.0-android</ActiveDebugFramework>
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
-    <ActiveDebugProfile>Pixel 5 - API 32 (1) (Android 12.1 - API 32)</ActiveDebugProfile>
+    <ActiveDebugProfile>Samsung SM-A202F (Android 11.0 - API 30)</ActiveDebugProfile>
     <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
     <DefaultDevice>pixel_5_-_api_32_1</DefaultDevice>
   </PropertyGroup>
@@ -24,6 +24,9 @@
   </ItemGroup>
   <ItemGroup>
     <MauiXaml Update="Views\ChooseActiveAccountPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\LoansPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Views\MakeTransactionPage.xaml">

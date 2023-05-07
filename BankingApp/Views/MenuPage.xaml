@@ -3,37 +3,47 @@
              xmlns:local="clr-namespace:BankingApp"
              xmlns:res="clr-namespace:BankingApp.Resources"
              xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
-             x:Class="BankingApp.Views.MenuPage"
+             x:Class="BankingApp.MenuPage"
              Title="MenuPage"
              BackgroundColor="#041014"
              Shell.NavBarIsVisible="False" NavigationPage.HasBackButton="False">
-
-
-
     <ScrollView>
-
-
         <VerticalStackLayout>
 
             <Label HorizontalOptions="Center" Margin="0,20,0,20" Text="{x:Static res:LanguageResources.YourAccount}" FontSize="32"/>
         
-        <!--Account Bank Card-->
-        <Grid Margin="25,0,25,0" >
-            <Image Source="bankcardesb.svg" Aspect="AspectFill"/>
-            <StackLayout VerticalOptions="CenterAndExpand">
-                <Label x:Name="CardNumberLabel" Margin="20,40,0,0" Text="{Binding card_number.Text}" FontSize="Large" FontFamily="OpenSansSemibold" TextColor="White" />
-
-            </StackLayout>
-            <VerticalStackLayout VerticalOptions="EndAndExpand">
-                <Label x:Name="CardTypeLabel" Margin="20,-20,30,0" Text="{Binding valid_month.Text}" HorizontalOptions="End" FontFamily="OpenSansSemibold" FontSize="Medium" TextColor="White" />
-                <Label x:Name="ValidYearLabel" Margin="20,-40,350,0"  Text="{Binding valid_year.Text}" HorizontalOptions="End" FontFamily="AgeoBold" FontSize="Medium" TextColor="White" />
-                <Label x:Name="nameLabel" Margin="20,0,0,20" Text="{Binding nameLabel.Text}" FontFamily="AgeoBold" FontSize="Large" TextColor="White" />
-
-            </VerticalStackLayout>
-        </Grid>
-
+        <!--Account Bank Card-->    
+            <Grid Margin="25,0,25,0" >
+                <!--<Image Source="bankcardesb.svg" Aspect="AspectFill"/>-->
+                <StackLayout x:Name="selectedCardLayout"
+                 IsVisible="{Binding IsCardSelected}">
+                    <Label Text="{Binding SelectedCard.card_number}"
+               FontAttributes="Bold"/>
+                    <Label Text="{Binding SelectedCard.card_type}" />
+                    <Label Text="{Binding SelectedCard.valid_month}"/>
+                </StackLayout>
+                <Frame>
+                    <Label x:Name="balanceLabel"  FontSize="Medium" />
+                </Frame>
+            </Grid>
+            
+            <Picker x:Name="CardPicker"
+                    Margin="0,0,20,20"
+                    BackgroundColor="#5fb3f9"
+                    HorizontalTextAlignment="Center"
+                     HeightRequest="50"
+                    WidthRequest="150"
+                    HorizontalOptions="End"
+           SelectedItem="{Binding SelectedCard}"
+          ItemsSource="{Binding Cards}"
+          SelectedIndex="0"
+          ItemDisplayBinding="{Binding card_number}" />
+           
         <Button HorizontalOptions="Center" Margin="10" WidthRequest="200" HeightRequest="50" BackgroundColor="#00B2FF"
                     Text="{x:Static res:LanguageResources.MakeTransaction}" TextColor="White" FontFamily="AgeoBold" FontSize="18" Clicked="GotoTransactionPage"/>
+         
+        <Button HorizontalOptions="Center" Margin="10" WidthRequest="200" HeightRequest="50" BackgroundColor="#00B2FF"
+                    Text="{x:Static res:LanguageResources.GoToLoans}" TextColor="White" FontFamily="AgeoBold" FontSize="18" Clicked="GotoLoanPage"/>
 
         <!--TransactionList-->
             <StackLayout Margin="50,10,50,0" VerticalOptions="EndAndExpand" BindableLayout.ItemsSource="{Binding Transactions}">

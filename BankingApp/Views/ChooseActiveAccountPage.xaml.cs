@@ -18,11 +18,13 @@ namespace BankingApp.Views
         private int id_user;
         public ObservableCollection<Account> _accounts = new ObservableCollection<Account>();
         public Account _selectedAccount;
+        //public AccountBalance _accountBalance;
         public ChooseActiveAccountPage(int id_user)
         {
             InitializeComponent();
             this.id_user = id_user;
             GetClientData();
+
         }
 
         //Welcome Name + Surname
@@ -95,10 +97,35 @@ namespace BankingApp.Views
             App.ActiveAccount = account;
         }
     }
+    //private void GetAccountBalance()
+    //{
+    //    string iban = App.ActiveAccount.iban;
+    //    string url = $"https://app.eschoolbank.com/api/mobile_app/get_account_balance.php?iban={iban}";
+
+    //    HttpClient client = new HttpClient();
+    //    HttpResponseMessage response = await client.GetAsync(url);
+
+    //    if (response.IsSuccessStatusCode)
+    //    {
+    //        string json = await response.Content.ReadAsStringAsync();
+    //        GetBalanceResponse responseObj = Newtonsoft.Json.JsonConvert.DeserializeObject<GetBalanceResponse>(json);
+    //        AccountBalance = responseObj.data;
+    //    }
+    //    else
+    //    {
+    //        Debug.WriteLine("Error: Unable to get loan data.");
+    //    }
+    //}
+
+
     public class ChooseActiveAccountsResponse
     {
         public ObservableCollection<Account> data { get; set; }
     }
+    //public class GetBalanceResponse
+    //{
+    //    public ObservableCollection<AccountBalance> data { get; set; }
+    //}
 
 }
 

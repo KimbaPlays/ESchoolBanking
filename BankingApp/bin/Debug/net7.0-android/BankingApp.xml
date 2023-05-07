@@ -85,6 +85,11 @@
               Looks up a localized string similar to First and Last Name of Recipient.
             </summary>
         </member>
+        <member name="P:BankingApp.Resources.LanguageResources.GoToLoans">
+            <summary>
+              Looks up a localized string similar to Your Loans.
+            </summary>
+        </member>
         <member name="P:BankingApp.Resources.LanguageResources.Hello">
             <summary>
               Looks up a localized string similar to Hello.
@@ -138,6 +143,11 @@
         <member name="P:BankingApp.Resources.LanguageResources.InsertPaymentDescription">
             <summary>
               Looks up a localized string similar to Insert Payment Description.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.InternalReferenceNumber">
+            <summary>
+              Looks up a localized string similar to Internal Reference Number.
             </summary>
         </member>
         <member name="P:BankingApp.Resources.LanguageResources.InternetFail">
@@ -313,6 +323,11 @@
         <member name="P:BankingApp.Resources.LanguageResources.YourAccount">
             <summary>
               Looks up a localized string similar to Your Account.
+            </summary>
+        </member>
+        <member name="P:BankingApp.Resources.LanguageResources.YourLoan">
+            <summary>
+              Looks up a localized string similar to Your Loan.
             </summary>
         </member>
         <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">

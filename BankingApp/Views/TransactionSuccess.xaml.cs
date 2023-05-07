@@ -29,16 +29,17 @@ public partial class TransactionSuccess : ContentPage
     {
         base.OnAppearing();
 
-        idClientLabel.Text = "ID Client: " + _paymentData.currentid_client;
+        idClientLabel.Text = "ID Client:" + _paymentData.currentid_client;
         ibanPayerLabel.Text = "IBAN Payer: " + _paymentData.ibanPayer;
         ibanRecipientLabel.Text = "IBAN Recipient: " + _paymentData.ibanRecipient;
         nameRecipientLabel.Text = "Name Recipient: " + _paymentData.nameRecipient;
         paymentDescriptionLabel.Text = "Payment Description: " + _paymentData.paymentDescription;
         modelLabel.Text = "Model: " + _paymentData.model;
+        dateTimeLabel.Text = "Date of Transaction:" + DateTime.Now;
         referenceNumberLabel.Text = "Reference Number: " + _paymentData.referenceNumber;
-        dateTimeLabel.Text = "Date Time: " + _paymentData.dateTime.ToString();
         amountLabel.Text = "Amount: " + _paymentData.amountValue.ToString("C", CultureInfo.CurrentCulture);
     }
+
 
     protected override bool OnBackButtonPressed()
     {

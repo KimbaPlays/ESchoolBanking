@@ -10,13 +10,16 @@ using Newtonsoft.Json.Linq;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Xml;
+using BankingApp.Views;
+using Newtonsoft.Json;
+using System.Runtime.CompilerServices;
 
-namespace BankingApp.Views
+namespace BankingApp
 {
     public partial class MenuPage : ContentPage, INotifyPropertyChanged
     {
+       //Transactions
         private ObservableCollection<TransactionData> _transactions = new ObservableCollection<TransactionData>();
-
         public ObservableCollection<TransactionData> Transactions
         {
             get { return _transactions; }
@@ -27,8 +30,47 @@ namespace BankingApp.Views
             }
         }
 
-        public Account SelectedAccount { get; }
+        //Cards
+        private ObservableCollection<CardData> _cards = new ObservableCollection<CardData>();
+        public ObservableCollection<CardData> Cards
+        {
+            get { return _cards; }
+            set
+            {
+                _cards = value;
+                OnPropertyChanged(nameof(Cards));
+            }
+        }
+        //Selected Card
+        private CardData _selectedCard;
+        public CardData SelectedCard
+        {
+            get { return _selectedCard; }
+            set { _selectedCard = value; OnPropertyChanged(nameof(SelectedCard)); OnPropertyChanged(nameof(IsCardSelected)); }
+        }
+        public bool IsCardSelected
+        {
+            get { return SelectedCard != null; }
+        }
 
+        //Active Account
+        public Account SelectedAccount { get; }
+        
+        //Account Balance
+        public class AccountBalance
+        {
+
+            [JsonProperty("status")]
+            public string status { get; set; }
+
+            [JsonProperty("msg")]
+            public string msg { get; set; }
+
+            [JsonProperty("data")]
+            public string data { get; set; }
+
+            
+        }
         public MenuPage(Account _selectedAccount)
         {
             InitializeComponent();
@@ -42,6 +84,8 @@ namespace BankingApp.Views
         {
             base.OnAppearing();
             await GetTransactionsAsync();
+            await GetBalanceAsync();
+            await GetCardsAsync();
         }
 
         //Confirm you want to go back
@@ -76,6 +120,54 @@ namespace BankingApp.Views
             }
         }
 
+        //Get Account Balance
+        private async Task GetBalanceAsync()
+        {
+            string iban = App.ActiveAccount.iban;
+            string url = $"https://app.eschoolbank.com/api/mobile_app/get_account_balance.php?iban={iban}";
+
+            HttpClient client = new HttpClient();
+            HttpResponseMessage response = await client.GetAsync(url);
+            var responseString = await response.Content.ReadAsStringAsync();
+
+            if (response.IsSuccessStatusCode)
+            {
+                string json = await response.Content.ReadAsStringAsync();              
+
+                JObject resultX = JObject.Parse(responseString);
+                JObject data = (JObject)resultX["data"];
+                string account_balance = (string)data["account_balance"];
+                balanceLabel.Text = account_balance + "€";
+
+            }
+            else
+            {
+                Debug.WriteLine("Error: Unable to get balance data.");
+            }
+        }
+
+        //Get Client Cards
+
+        private async Task GetCardsAsync()
+        {
+            int id_client = App.ActiveAccount.id_client_account;
+            string url = $"https://app.eschoolbank.com/api/mobile_app/get_client_cards.php?id_client={id_client}";
+
+            HttpClient client = new HttpClient();
+            HttpResponseMessage response = await client.GetAsync(url);
+
+            if (response.IsSuccessStatusCode)
+            {
+                string json = await response.Content.ReadAsStringAsync();
+                CardsResponse responseObj = Newtonsoft.Json.JsonConvert.DeserializeObject<CardsResponse>(json);
+                Cards = responseObj.data;
+            }
+            else
+            {
+                Debug.WriteLine("Error: Unable to get Card data.");
+            }
+        }
+
 
         //More Transactions -> Updates
         public new event PropertyChangedEventHandler PropertyChanged;
@@ -88,15 +180,30 @@ namespace BankingApp.Views
             {
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("Transactions"));
             }
+            else
+            {
+                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+            }
         }
+
         public class TransactionsResponse
         {
             public ObservableCollection<TransactionData> data { get; set; }
 
         }
+
+        public class CardsResponse
+        {
+            public ObservableCollection<CardData> data { get; set; }
+
+        }
         private void GotoTransactionPage(object sender, EventArgs e)
         {
             Navigation.PushAsync(new MakeTransactionPage());
+        }
+        private void GotoLoanPage(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new LoansPage(SelectedAccount));
         }
     }
 }
