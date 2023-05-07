@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccountBalance" xml:space="preserve">
-    <value />
+    <value>Stanje na računu:</value>
   </data>
   <data name="Calculate" xml:space="preserve">
     <value />
@@ -129,35 +129,41 @@
   <data name="CheckWebsite" xml:space="preserve">
     <value />
   </data>
+  <data name="ChooseCard" xml:space="preserve">
+    <value>Odaberite karticu</value>
+  </data>
   <data name="ChooseCurrency" xml:space="preserve">
     <value />
   </data>
   <data name="Continue" xml:space="preserve">
-    <value />
+    <value>Nastaviti</value>
   </data>
   <data name="CreateAccount" xml:space="preserve">
-    <value />
+    <value>Napravi račun</value>
   </data>
   <data name="DateTime" xml:space="preserve">
-    <value />
+    <value>Datum transakcije:</value>
   </data>
   <data name="Duration" xml:space="preserve">
     <value />
   </data>
   <data name="EnterPassword" xml:space="preserve">
-    <value />
+    <value>Molimo unesite svoju lozinku</value>
   </data>
   <data name="EnterUsername" xml:space="preserve">
-    <value />
+    <value>Unesite svoje korisničko ime</value>
   </data>
   <data name="ErasmusWebsite" xml:space="preserve">
     <value />
   </data>
   <data name="FirstLastNameRecipient" xml:space="preserve">
-    <value />
+    <value>Ime i prezime primatelja</value>
+  </data>
+  <data name="GoToLoans" xml:space="preserve">
+    <value>Vaši zajmovi</value>
   </data>
   <data name="Hello" xml:space="preserve">
-    <value />
+    <value>Zdravo</value>
   </data>
   <data name="HowLong" xml:space="preserve">
     <value />
@@ -166,10 +172,10 @@
     <value />
   </data>
   <data name="IBANPayer" xml:space="preserve">
-    <value />
+    <value>IBAN uplatitelj:</value>
   </data>
   <data name="IBANRecipient" xml:space="preserve">
-    <value />
+    <value>Primatelj IBAN-a:</value>
   </data>
   <data name="IncomewithRate" xml:space="preserve">
     <value />
@@ -178,64 +184,67 @@
     <value />
   </data>
   <data name="InsertAmount" xml:space="preserve">
-    <value />
+    <value>Unesite iznos</value>
   </data>
   <data name="InsertIBANRecipient" xml:space="preserve">
-    <value />
+    <value>Unesite IBAN primatelja</value>
   </data>
   <data name="InsertNameRecipient" xml:space="preserve">
-    <value />
+    <value>Unesite ime primatelja</value>
   </data>
   <data name="InsertPaymentDescription" xml:space="preserve">
-    <value />
+    <value>Unesite opis plaćanja</value>
+  </data>
+  <data name="InternalReferenceNumber" xml:space="preserve">
+    <value>Interni poziv na broj</value>
   </data>
   <data name="InternetFail" xml:space="preserve">
-    <value />
+    <value>Molimo spojite se na internet!</value>
   </data>
   <data name="LandingPageText" xml:space="preserve">
-    <value />
+    <value>Dobrodošli u mobilnu aplikaciju E-School Banking!</value>
   </data>
   <data name="LastTransaction" xml:space="preserve">
-    <value />
+    <value>Vaše zadnje transakcije:</value>
   </data>
   <data name="LetsGetStarted" xml:space="preserve">
-    <value />
+    <value>Počnimo!</value>
   </data>
   <data name="LoginInformation" xml:space="preserve">
-    <value />
+    <value>Molimo prijavite se sa svojim podacima!</value>
   </data>
   <data name="LogOut" xml:space="preserve">
-    <value />
+    <value>Odjavite se</value>
   </data>
   <data name="MakeTransaction" xml:space="preserve">
-    <value />
+    <value>Izvršite transakciju</value>
   </data>
   <data name="ManageProfile" xml:space="preserve">
-    <value />
+    <value>Upravljajte svojim profilom</value>
   </data>
   <data name="Month" xml:space="preserve">
-    <value />
+    <value>Mjesec</value>
   </data>
   <data name="Name" xml:space="preserve">
-    <value />
+    <value>Ime:</value>
   </data>
   <data name="NeedHelp" xml:space="preserve">
-    <value />
+    <value>Trebate pomoć?</value>
   </data>
   <data name="Password" xml:space="preserve">
-    <value />
+    <value>Lozinka</value>
   </data>
   <data name="PaymentDescription" xml:space="preserve">
-    <value />
+    <value>Opis plaćanja:</value>
   </data>
   <data name="RecipientName" xml:space="preserve">
-    <value />
+    <value>Ime primatelja:</value>
   </data>
   <data name="RecoverPassword" xml:space="preserve">
-    <value />
+    <value>Obnovi lozinku</value>
   </data>
   <data name="ReferenceNumber" xml:space="preserve">
-    <value />
+    <value>Poziv na broj:</value>
   </data>
   <data name="Results" xml:space="preserve">
     <value />
@@ -244,34 +253,34 @@
     <value />
   </data>
   <data name="SeeMore" xml:space="preserve">
-    <value />
+    <value>Vidi više</value>
   </data>
   <data name="SignIn" xml:space="preserve">
-    <value />
+    <value>Prijaviti se</value>
   </data>
   <data name="StandardCurrency" xml:space="preserve">
     <value />
   </data>
   <data name="Surname" xml:space="preserve">
-    <value />
+    <value>Prezime:</value>
   </data>
   <data name="Title" xml:space="preserve">
     <value />
   </data>
   <data name="TransactionAmount" xml:space="preserve">
-    <value />
+    <value>Iznos Transakcije</value>
   </data>
   <data name="TransactionDetails" xml:space="preserve">
-    <value />
+    <value>Detalji Transakcije</value>
   </data>
   <data name="TransactionModel" xml:space="preserve">
-    <value />
+    <value>Model:</value>
   </data>
   <data name="Transactions" xml:space="preserve">
-    <value />
+    <value>Transactions</value>
   </data>
   <data name="TransactionSuccess" xml:space="preserve">
-    <value />
+    <value>Transakcija uspješna!</value>
   </data>
   <data name="UsageofCurrency" xml:space="preserve">
     <value />
@@ -283,15 +292,18 @@
     <value />
   </data>
   <data name="Username" xml:space="preserve">
-    <value />
+    <value>Username</value>
   </data>
   <data name="Welcome" xml:space="preserve">
-    <value />
+    <value>Dobrodošli!</value>
   </data>
   <data name="WhichAccountAreYouUsing" xml:space="preserve">
-    <value />
+    <value>Koji ćete račun koristiti?</value>
   </data>
   <data name="YourAccount" xml:space="preserve">
-    <value />
+    <value>Vaš korisnički račun</value>
+  </data>
+  <data name="YourLoan" xml:space="preserve">
+    <value>Vaš zajam</value>
   </data>
 </root>

@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccountBalance" xml:space="preserve">
-    <value />
+    <value>Saldo del conto:</value>
   </data>
   <data name="Calculate" xml:space="preserve">
     <value />
@@ -129,35 +129,41 @@
   <data name="CheckWebsite" xml:space="preserve">
     <value />
   </data>
+  <data name="ChooseCard" xml:space="preserve">
+    <value>Scegliere una carta</value>
+  </data>
   <data name="ChooseCurrency" xml:space="preserve">
     <value />
   </data>
   <data name="Continue" xml:space="preserve">
-    <value />
+    <value>Continua</value>
   </data>
   <data name="CreateAccount" xml:space="preserve">
-    <value />
+    <value>Creare un account</value>
   </data>
   <data name="DateTime" xml:space="preserve">
-    <value />
+    <value>Data della transazione:</value>
   </data>
   <data name="Duration" xml:space="preserve">
-    <value />
+    <value>Durata dell'investimento</value>
   </data>
   <data name="EnterPassword" xml:space="preserve">
-    <value />
+    <value>Inserire la password</value>
   </data>
   <data name="EnterUsername" xml:space="preserve">
-    <value />
+    <value>Inserisci il tuo nome utente</value>
   </data>
   <data name="ErasmusWebsite" xml:space="preserve">
     <value />
   </data>
   <data name="FirstLastNameRecipient" xml:space="preserve">
-    <value />
+    <value>Nome e cognome del destinatario</value>
+  </data>
+  <data name="GoToLoans" xml:space="preserve">
+    <value>I vostri prestiti</value>
   </data>
   <data name="Hello" xml:space="preserve">
-    <value />
+    <value>Ciao</value>
   </data>
   <data name="HowLong" xml:space="preserve">
     <value />
@@ -166,10 +172,10 @@
     <value />
   </data>
   <data name="IBANPayer" xml:space="preserve">
-    <value />
+    <value>IBAN Pagatore:</value>
   </data>
   <data name="IBANRecipient" xml:space="preserve">
-    <value />
+    <value>IBAN Destinatario:</value>
   </data>
   <data name="IncomewithRate" xml:space="preserve">
     <value />
@@ -178,64 +184,67 @@
     <value />
   </data>
   <data name="InsertAmount" xml:space="preserve">
-    <value />
+    <value>Inserire l'importo</value>
   </data>
   <data name="InsertIBANRecipient" xml:space="preserve">
-    <value />
+    <value>Inserire l'IBAN del destinatario</value>
   </data>
   <data name="InsertNameRecipient" xml:space="preserve">
-    <value />
+    <value>Inserire il nome del destinatario</value>
   </data>
   <data name="InsertPaymentDescription" xml:space="preserve">
-    <value />
+    <value>Inserire la descrizione del pagamento</value>
+  </data>
+  <data name="InternalReferenceNumber" xml:space="preserve">
+    <value>Numero di riferimento interno</value>
   </data>
   <data name="InternetFail" xml:space="preserve">
-    <value />
+    <value>Si prega di connettersi a Internet!</value>
   </data>
   <data name="LandingPageText" xml:space="preserve">
-    <value />
+    <value>Benvenuti nell'applicazione mobile E-School Banking!</value>
   </data>
   <data name="LastTransaction" xml:space="preserve">
-    <value />
+    <value>Le ultime transazioni:</value>
   </data>
   <data name="LetsGetStarted" xml:space="preserve">
-    <value />
+    <value>Iniziamo!</value>
   </data>
   <data name="LoginInformation" xml:space="preserve">
-    <value />
+    <value>Effettua il login con i tuoi dati!</value>
   </data>
   <data name="LogOut" xml:space="preserve">
-    <value />
+    <value>Disconnettersi</value>
   </data>
   <data name="MakeTransaction" xml:space="preserve">
-    <value />
+    <value>Effettuare una transazione</value>
   </data>
   <data name="ManageProfile" xml:space="preserve">
-    <value />
+    <value>Gestione del profilo</value>
   </data>
   <data name="Month" xml:space="preserve">
-    <value />
+    <value>Mese</value>
   </data>
   <data name="Name" xml:space="preserve">
-    <value />
+    <value>Nome</value>
   </data>
   <data name="NeedHelp" xml:space="preserve">
-    <value />
+    <value>Avete bisogno di aiuto?</value>
   </data>
   <data name="Password" xml:space="preserve">
-    <value />
+    <value>Password</value>
   </data>
   <data name="PaymentDescription" xml:space="preserve">
-    <value />
+    <value>Descrizione del pagamento:</value>
   </data>
   <data name="RecipientName" xml:space="preserve">
-    <value />
+    <value>Nome del destinatario:</value>
   </data>
   <data name="RecoverPassword" xml:space="preserve">
-    <value />
+    <value>Recuperare la password</value>
   </data>
   <data name="ReferenceNumber" xml:space="preserve">
-    <value />
+    <value>Numero di riferimento:</value>
   </data>
   <data name="Results" xml:space="preserve">
     <value />
@@ -244,34 +253,34 @@
     <value />
   </data>
   <data name="SeeMore" xml:space="preserve">
-    <value />
+    <value>Per saperne di più</value>
   </data>
   <data name="SignIn" xml:space="preserve">
-    <value />
+    <value>Accedi</value>
   </data>
   <data name="StandardCurrency" xml:space="preserve">
     <value />
   </data>
   <data name="Surname" xml:space="preserve">
-    <value />
+    <value>Cognome:</value>
   </data>
   <data name="Title" xml:space="preserve">
     <value />
   </data>
   <data name="TransactionAmount" xml:space="preserve">
-    <value />
+    <value>Importo della transazione</value>
   </data>
   <data name="TransactionDetails" xml:space="preserve">
-    <value />
+    <value>Dettagli della transazione:</value>
   </data>
   <data name="TransactionModel" xml:space="preserve">
-    <value />
+    <value>Modello</value>
   </data>
   <data name="Transactions" xml:space="preserve">
-    <value />
+    <value>Transazioni</value>
   </data>
   <data name="TransactionSuccess" xml:space="preserve">
-    <value />
+    <value>Transazione riuscita!</value>
   </data>
   <data name="UsageofCurrency" xml:space="preserve">
     <value />
@@ -283,15 +292,18 @@
     <value />
   </data>
   <data name="Username" xml:space="preserve">
-    <value />
+    <value>Username</value>
   </data>
   <data name="Welcome" xml:space="preserve">
-    <value />
+    <value>Benvenuti</value>
   </data>
   <data name="WhichAccountAreYouUsing" xml:space="preserve">
-    <value />
+    <value>Quale account utilizzerete?</value>
   </data>
   <data name="YourAccount" xml:space="preserve">
-    <value />
+    <value>Il vostro conto</value>
+  </data>
+  <data name="YourLoan" xml:space="preserve">
+    <value>Il vostro prestito</value>
   </data>
 </root>

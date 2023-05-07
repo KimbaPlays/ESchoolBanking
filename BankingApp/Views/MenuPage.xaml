@@ -11,23 +11,23 @@
         <VerticalStackLayout>
 
             <Label HorizontalOptions="Center" Margin="0,20,0,20" Text="{x:Static res:LanguageResources.YourAccount}" FontSize="32"/>
-        
-        <!--Account Bank Card-->    
+            <!--Account Bank Card-->    
             <Grid Margin="25,0,25,0" >
-                <!--<Image Source="bankcardesb.svg" Aspect="AspectFill"/>-->
+                <Image Source="bankcardesb.svg" Aspect="AspectFill"/>
                 <StackLayout x:Name="selectedCardLayout"
                  IsVisible="{Binding IsCardSelected}">
-                    <Label Text="{Binding SelectedCard.card_number}"
-               FontAttributes="Bold"/>
-                    <Label Text="{Binding SelectedCard.card_type}" />
-                    <Label Text="{Binding SelectedCard.valid_month}"/>
+                    <Label Text="{Binding SelectedCard.card_number}" VerticalOptions="EndAndExpand" HorizontalOptions="StartAndExpand"
+               FontAttributes="Bold" FontSize="Medium"/>
+                    <Label Text="{Binding SelectedCard.card_type}" FontSize="Medium" />
+                    <Label Text="{Binding SelectedCard.valid_month}" FontSize="Medium"/>
+                    <Label Text="{Binding SelectedCard.valid_year}" FontSize="Medium"/>
                 </StackLayout>
-                <Frame>
-                    <Label x:Name="balanceLabel"  FontSize="Medium" />
-                </Frame>
             </Grid>
-            
-            <Picker x:Name="CardPicker"
+            <Label x:Name="balanceLabel" FontSize="Large" TextColor="#5fb3f9" HorizontalOptions="End" Margin="0,0,20,20" />
+
+            <Grid>
+                <Label Text="{x:Static res:LanguageResources.ChooseCard}" HorizontalOptions="Start" FontSize="Large" Margin="20,0,0,20" VerticalOptions="Center"/>
+                <Picker x:Name="CardPicker"
                     Margin="0,0,20,20"
                     BackgroundColor="#5fb3f9"
                     HorizontalTextAlignment="Center"
@@ -38,8 +38,9 @@
           ItemsSource="{Binding Cards}"
           SelectedIndex="0"
           ItemDisplayBinding="{Binding card_number}" />
-           
-        <Button HorizontalOptions="Center" Margin="10" WidthRequest="200" HeightRequest="50" BackgroundColor="#00B2FF"
+            </Grid>
+        
+            <Button HorizontalOptions="Center" Margin="10" WidthRequest="200" HeightRequest="50" BackgroundColor="#00B2FF"
                     Text="{x:Static res:LanguageResources.MakeTransaction}" TextColor="White" FontFamily="AgeoBold" FontSize="18" Clicked="GotoTransactionPage"/>
          
         <Button HorizontalOptions="Center" Margin="10" WidthRequest="200" HeightRequest="50" BackgroundColor="#00B2FF"

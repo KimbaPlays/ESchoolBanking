@@ -97,6 +97,15 @@ namespace BankingApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Choose a Card.
+        /// </summary>
+        public static string ChooseCard {
+            get {
+                return ResourceManager.GetString("ChooseCard", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Choose a Currency.
         /// </summary>
         public static string ChooseCurrency {

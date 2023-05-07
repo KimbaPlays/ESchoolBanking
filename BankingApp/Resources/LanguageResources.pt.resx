@@ -129,6 +129,9 @@
   <data name="CheckWebsite" xml:space="preserve">
     <value>Vê o nosso Website!</value>
   </data>
+  <data name="ChooseCard" xml:space="preserve">
+    <value>Escolhe um Cartão</value>
+  </data>
   <data name="ChooseCurrency" xml:space="preserve">
     <value>Escolhe uma moeda</value>
   </data>
