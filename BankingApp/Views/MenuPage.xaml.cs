@@ -16,6 +16,7 @@ using System.Runtime.CompilerServices;
 
 namespace BankingApp
 {
+    [XamlCompilation (XamlCompilationOptions.Skip)]
     public partial class MenuPage : ContentPage, INotifyPropertyChanged
     {
        //Transactions
@@ -77,6 +78,7 @@ namespace BankingApp
             Title = "Transactions";
             BindingContext = this;
             SelectedAccount = _selectedAccount;
+            CardPicker.SelectedIndex = 0;
         }
 
         //When the screen appears

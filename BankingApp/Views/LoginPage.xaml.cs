@@ -3,7 +3,7 @@ using BankingApp.Services;
 using BankingApp.Views;
 
 namespace BankingApp;
-
+[XamlCompilation(XamlCompilationOptions.Skip)]
 public partial class LoginPage : ContentPage
 {
     readonly ILoginRepository _loginRepository = new LoginService();

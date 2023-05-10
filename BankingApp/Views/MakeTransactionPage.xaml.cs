@@ -8,6 +8,7 @@ using System.Globalization;
 using System.Diagnostics;
 
 namespace BankingApp.Views;
+[XamlCompilation(XamlCompilationOptions.Skip)]
 public partial class MakeTransactionPage : ContentPage
 {
     // Variables for the Reference Number
@@ -157,6 +158,24 @@ public partial class MakeTransactionPage : ContentPage
             return;
         }
 
+        if (string.IsNullOrWhiteSpace(model))
+        {
+            await DisplayAlert("Error", "Please enter a model.", "OK");
+            return;
+        }
+
+        if (string.IsNullOrWhiteSpace(referenceNumber))
+        {
+            await DisplayAlert("Error", "Please enter a reference-number.", "OK");
+            return;
+        }
+
+
+        if (ibanPayer == ibanRecipient)
+        {
+            await DisplayAlert("Attention", "Please input 2 different IBANs", "Ok");
+            return;
+        }
 
         // Call the MakePaymentAsync method with the payment data
         await MakePaymentAsync(id_client, ibanPayer, ibanRecipient, nameRecipient, paymentDescription, model, referenceNumber, amount);

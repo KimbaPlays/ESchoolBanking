@@ -12,10 +12,10 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 
 		<!-- Display name -->
-		<ApplicationTitle>E-School Banking</ApplicationTitle>
+		<ApplicationTitle>E-School Bank</ApplicationTitle>
 
 		<!-- App Identifier -->
-		<ApplicationId>com.companyname.eschoolbanking</ApplicationId>
+		<ApplicationId>com.companyname.eschoolbank</ApplicationId>
 		<ApplicationIdGuid>8DA16325-9235-4394-9A34-E1D35EEBCAB9</ApplicationIdGuid>
 
 		<!-- Versions -->

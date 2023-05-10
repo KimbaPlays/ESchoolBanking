@@ -13,6 +13,7 @@ using System.Xml;
 using System.Globalization;
 
 namespace BankingApp.Views;
+[XamlCompilation(XamlCompilationOptions.Skip)]
 
 public partial class TransactionSuccess : ContentPage
 {

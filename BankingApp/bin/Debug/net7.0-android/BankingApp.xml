@@ -40,6 +40,11 @@
               Looks up a localized string similar to Check our Website!.
             </summary>
         </member>
+        <member name="P:BankingApp.Resources.LanguageResources.ChooseCard">
+            <summary>
+              Looks up a localized string similar to Choose a Card.
+            </summary>
+        </member>
         <member name="P:BankingApp.Resources.LanguageResources.ChooseCurrency">
             <summary>
               Looks up a localized string similar to Choose a Currency.

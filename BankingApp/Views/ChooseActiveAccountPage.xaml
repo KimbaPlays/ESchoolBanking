@@ -38,8 +38,8 @@
                     <DataTemplate>
                         <ViewCell>
                             <StackLayout>
-                                <Label Text="{Binding iban}" FontSize="Medium" />
-                                <Label Text="{Binding account_type}" FontSize="Small" />
+                                <Label Text="{Binding iban}" FontSize="16" />
+                                <Label Text="{Binding account_type}" FontSize="15" />
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>

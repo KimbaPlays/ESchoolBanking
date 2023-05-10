@@ -10,7 +10,7 @@
     <ScrollView>
         <VerticalStackLayout>
 
-            <Label HorizontalOptions="Center" Margin="0,20,0,20" Text="{x:Static res:LanguageResources.YourAccount}" FontSize="32"/>
+            <Label HorizontalOptions="Center" Margin="0,20,0,20" Text="{x:Static res:LanguageResources.YourAccount}" FontFamily="AgeoBold" FontSize="32"/>
             <!--Account Bank Card-->    
             <Grid Margin="25,0,25,0" >
                 <Image Source="bankcardesb.svg" Aspect="AspectFill"/>
@@ -26,7 +26,7 @@
             <Label x:Name="balanceLabel" FontSize="Large" TextColor="#5fb3f9" HorizontalOptions="End" Margin="0,0,20,20" />
 
             <Grid>
-                <Label Text="{x:Static res:LanguageResources.ChooseCard}" HorizontalOptions="Start" FontSize="Large" Margin="20,0,0,20" VerticalOptions="Center"/>
+                <Label Text="{x:Static res:LanguageResources.ChooseCard}" HorizontalOptions="Start" FontFamily="AgeoBold" FontSize="Medium" Margin="20,0,0,25" VerticalOptions="Center"/>
                 <Picker x:Name="CardPicker"
                     Margin="0,0,20,20"
                     BackgroundColor="#5fb3f9"
@@ -59,26 +59,26 @@
                                 </StackLayout>
                             </toolkit:Expander.Header>
                             <StackLayout IsVisible="{Binding IsExpanded}">
-                                <StackLayout Orientation="Horizontal">
+                                <VerticalStackLayout>
                                     <Label FontFamily="AgeoBold" Text="{x:Static res:LanguageResources.RecipientName} " FontSize="Small" />
                                     <Label Text="{Binding name_recipient}" FontSize="Small" />
-                                </StackLayout>
-                                <StackLayout Orientation="Horizontal" >
+                                </VerticalStackLayout>
+                                <VerticalStackLayout>
                                     <Label FontFamily="AgeoBold" Text="{x:Static res:LanguageResources.IBANPayer}" FontSize="Small" />
                                     <Label Text="{Binding iban_payer}" FontSize="Small" />
-                                </StackLayout>
-                                <StackLayout Orientation="Horizontal" >
+                                </VerticalStackLayout>
+                                <VerticalStackLayout>
                                     <Label FontFamily="AgeoBold" Text="{x:Static res:LanguageResources.IBANRecipient}" FontSize="Small" />
                                     <Label Text="{Binding iban_recipient}" FontSize="Small" />
-                                </StackLayout>
-                                <StackLayout Orientation="Horizontal">
+                                </VerticalStackLayout>
+                                <VerticalStackLayout>
                                     <Label FontFamily="AgeoBold" Text="{x:Static res:LanguageResources.PaymentDescription}" FontSize="Small" />
                                     <Label Text="{Binding payment_description}" FontSize="Small" />
-                                </StackLayout>
-                                <StackLayout Orientation="Horizontal" >
+                                </VerticalStackLayout>
+                                <VerticalStackLayout >
                                     <Label FontFamily="AgeoBold" Text="{x:Static res:LanguageResources.ReferenceNumber}" FontSize="Small" />
                                     <Label Text="{Binding reference_number}" FontSize="Small" />
-                                </StackLayout>
+                                </VerticalStackLayout>
                             </StackLayout>
                         </toolkit:Expander>
                     </DataTemplate>

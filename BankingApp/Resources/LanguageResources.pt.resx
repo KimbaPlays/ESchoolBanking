@@ -142,10 +142,10 @@
     <value>Criar Conta</value>
   </data>
   <data name="DateTime" xml:space="preserve">
-    <value>Data de Transação:</value>
+    <value>Data da Transação:</value>
   </data>
   <data name="Duration" xml:space="preserve">
-    <value>Duração de Investimento:</value>
+    <value>Duração do Investimento:</value>
   </data>
   <data name="EnterPassword" xml:space="preserve">
     <value>Insira a sua palavra-passe</value>
@@ -157,7 +157,7 @@
     <value>Website Erasmus</value>
   </data>
   <data name="FirstLastNameRecipient" xml:space="preserve">
-    <value>Primeiro e Último Nome do Recipiente</value>
+    <value>Primeiro e Último Nome do Destinatário</value>
   </data>
   <data name="GoToLoans" xml:space="preserve">
     <value>Empréstimos</value>
@@ -175,7 +175,7 @@
     <value>O seu IBAN:</value>
   </data>
   <data name="IBANRecipient" xml:space="preserve">
-    <value>IBAN do Recipiente:</value>
+    <value>IBAN do Destinatário:</value>
   </data>
   <data name="IncomewithRate" xml:space="preserve">
     <value>Retorno com taxa:</value>
@@ -187,13 +187,13 @@
     <value>Insira a quantia</value>
   </data>
   <data name="InsertIBANRecipient" xml:space="preserve">
-    <value>Insira o IBAN do Recipiente</value>
+    <value>Insira o IBAN do Destinatário:</value>
   </data>
   <data name="InsertNameRecipient" xml:space="preserve">
-    <value>Insira o Nome do Recipiente</value>
+    <value>Insira o Nome do Destinatário:</value>
   </data>
   <data name="InsertPaymentDescription" xml:space="preserve">
-    <value>Insira uma Descrição à Transação</value>
+    <value>Insira uma Descrição da Transação</value>
   </data>
   <data name="InternalReferenceNumber" xml:space="preserve">
     <value>Número de Referência Interno</value>
@@ -202,7 +202,7 @@
     <value>Por favor conecte-se ao wifi!</value>
   </data>
   <data name="LandingPageText" xml:space="preserve">
-    <value>Bem-Vindo à Aplicação E-School Banking</value>
+    <value>Bem-Vindo à Aplicação E-School Bank</value>
   </data>
   <data name="LastTransaction" xml:space="preserve">
     <value>Últimas Transações</value>
@@ -238,7 +238,7 @@
     <value>Descrição de Transação:</value>
   </data>
   <data name="RecipientName" xml:space="preserve">
-    <value>Nome do Recipiente:</value>
+    <value>Nome do Destinatário:</value>
   </data>
   <data name="RecoverPassword" xml:space="preserve">
     <value>Recuperar Palavra-Passe</value>

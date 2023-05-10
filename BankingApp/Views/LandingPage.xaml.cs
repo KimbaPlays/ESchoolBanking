@@ -1,5 +1,5 @@
 namespace BankingApp;
-
+[XamlCompilation(XamlCompilationOptions.Skip)]
 public partial class LandingPage : ContentPage
 {
 	public LandingPage()

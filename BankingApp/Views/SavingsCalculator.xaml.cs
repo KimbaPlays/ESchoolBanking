@@ -7,6 +7,7 @@ using System.Runtime.CompilerServices;
 using static BankingApp.SavingsCalculator;
 
 namespace BankingApp;
+[XamlCompilation(XamlCompilationOptions.Skip)]
 public partial class SavingsCalculator : ContentPage
 {
     int selectedIndex = 0;

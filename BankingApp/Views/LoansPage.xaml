@@ -14,31 +14,31 @@
                     <toolkit:Expander BackgroundColor="#5fb3f9" Margin="0,0,0,5" Padding="10">
                         <toolkit:Expander.Header>
                             <StackLayout Orientation="Horizontal">
-                                <Label FontFamily="OpenSansSemibold" Text="{x:Static res:LanguageResources.YourLoan}" FontSize="Small" HorizontalOptions="StartAndExpand" />
+                                <Label FontFamily="AgeoBold" Text="{x:Static res:LanguageResources.YourLoan}" FontSize="Small" HorizontalOptions="StartAndExpand" />
                                 <Label FontFamily="OpenSansSemibold" Text="{Binding amount}" FontSize="Small" HorizontalOptions="End" />
                             </StackLayout>
                         </toolkit:Expander.Header>
                         <StackLayout IsVisible="{Binding IsExpanded}">
-                            <StackLayout Orientation="Horizontal">
+                            <VerticalStackLayout>
                                 <Label FontFamily="AgeoBold" Text="{x:Static res:LanguageResources.RecipientName} " FontSize="Small" />
                                 <Label Text="{Binding id_client_loan}" FontSize="Small" />
-                            </StackLayout>
-                            <StackLayout Orientation="Horizontal" >
+                            </VerticalStackLayout>
+                            <VerticalStackLayout>
                                 <Label FontFamily="AgeoBold" Text="{x:Static res:LanguageResources.IBANPayer}" FontSize="Small" />
                                 <Label Text="{Binding id_client}" FontSize="Small" />
-                            </StackLayout>
-                            <StackLayout Orientation="Horizontal" >
+                            </VerticalStackLayout>
+                            <VerticalStackLayout>
                                 <Label FontFamily="AgeoBold" Text="{x:Static res:LanguageResources.IBANRecipient}" FontSize="Small" />
                                 <Label Text="{Binding id_loan_type}" FontSize="Small" />
-                            </StackLayout>
-                            <StackLayout Orientation="Horizontal">
+                            </VerticalStackLayout>
+                            <VerticalStackLayout>
                                 <Label FontFamily="AgeoBold" Text="{x:Static res:LanguageResources.PaymentDescription}" FontSize="Small" />
                                 <Label Text="{Binding active}" FontSize="Small" />
-                            </StackLayout>
-                            <StackLayout Orientation="Horizontal" >
+                            </VerticalStackLayout>
+                            <VerticalStackLayout>
                                 <Label FontFamily="AgeoBold" Text="{x:Static res:LanguageResources.ReferenceNumber}" FontSize="Small" />
                                 <Label Text="{Binding loan_type}" FontSize="Small" />
-                            </StackLayout>
+                            </VerticalStackLayout>
                         </StackLayout>
                     </toolkit:Expander>
                 </DataTemplate>

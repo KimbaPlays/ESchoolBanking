@@ -202,7 +202,7 @@
     <value>Please connect to the internet!</value>
   </data>
   <data name="LandingPageText" xml:space="preserve">
-    <value>Welcome to the E-School Banking Mobile App!</value>
+    <value>Welcome to the E-School Bank Mobile App!</value>
   </data>
   <data name="LastTransaction" xml:space="preserve">
     <value>Your Last Transactions:</value>

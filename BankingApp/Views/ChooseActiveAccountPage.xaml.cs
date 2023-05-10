@@ -13,6 +13,7 @@ using System.Transactions;
 
 namespace BankingApp.Views
 {
+    [XamlCompilation(XamlCompilationOptions.Skip)]
     public partial class ChooseActiveAccountPage : ContentPage
     {
         private int id_user;

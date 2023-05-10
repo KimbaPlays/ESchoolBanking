@@ -7,6 +7,7 @@ using BankingApp.Services;
 
 namespace BankingApp;
 
+[XamlCompilation(XamlCompilationOptions.Skip)]
 public partial class CalculatorPage : ContentPage
 {
     int currentState = 1;

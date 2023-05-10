@@ -313,7 +313,7 @@ namespace BankingApp.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Welcome to the E-School Banking Mobile App!.
+        ///   Looks up a localized string similar to Welcome to the E-School Bank Mobile App!.
         /// </summary>
         public static string LandingPageText {
             get {

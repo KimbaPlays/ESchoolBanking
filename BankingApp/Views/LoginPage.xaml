@@ -47,7 +47,7 @@
                     <Grid Margin="0.5">
                         <Frame Opacity="1" Margin="10" HorizontalOptions="CenterAndExpand"  BackgroundColor="#202327" WidthRequest="250"  CornerRadius="30" Padding="0" >
                             <Entry x:Name="PasswordEntry" BackgroundColor="#202327"  TextColor="#71767B"  
-                              FontFamily="AgeoLight" FontSize="16" Placeholder="{x:Static res:LanguageResources.EnterPassword}" HorizontalOptions="CenterAndExpand"  PlaceholderColor="#202327" IsPassword="True"/>
+                              FontSize="16" Placeholder="{x:Static res:LanguageResources.EnterPassword}" HorizontalOptions="CenterAndExpand"  PlaceholderColor="#202327" IsPassword="True"/>
                         </Frame>
                     </Grid>
 
@@ -56,12 +56,6 @@
                 </StackLayout>
             </Frame>
         </VerticalStackLayout>
-        <Grid>
-            <Button HorizontalOptions="Start" Margin="10" WidthRequest="150" HeightRequest="40" BackgroundColor="#00B2FF"
-                    Text="{x:Static res:LanguageResources.RecoverPassword}" TextColor="White" FontFamily="AgeoBold"/>
-            <Button HorizontalOptions="End" Margin="10" WidthRequest="150" HeightRequest="40" BackgroundColor="#00B2FF"
-                    Text="{x:Static res:LanguageResources.CreateAccount}" TextColor="White" FontFamily="AgeoBold" />
-        </Grid>
 
 
         <!--Bottom-->

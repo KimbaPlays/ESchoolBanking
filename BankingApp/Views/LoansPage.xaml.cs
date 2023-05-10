@@ -12,7 +12,7 @@ using System.ComponentModel;
 using System.Xml;
 
 namespace BankingApp.Views;
-
+[XamlCompilation(XamlCompilationOptions.Skip)]
 public partial class LoansPage : ContentPage, INotifyPropertyChanged
 {
     private ObservableCollection<LoanData> _loans = new ObservableCollection<LoanData>();
