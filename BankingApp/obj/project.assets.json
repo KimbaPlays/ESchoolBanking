@@ -29616,11 +29616,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Diogo Brissos\\Desktop\\BankingApp Backup\\BankingApp\\BankingApp.csproj",
+      "projectUniqueName": "C:\\Users\\Diogo Brissos\\Desktop\\BankingApp\\BankingApp\\ESchoolBanking\\BankingApp\\BankingApp.csproj",
       "projectName": "BankingApp",
-      "projectPath": "C:\\Users\\Diogo Brissos\\Desktop\\BankingApp Backup\\BankingApp\\BankingApp.csproj",
+      "projectPath": "C:\\Users\\Diogo Brissos\\Desktop\\BankingApp\\BankingApp\\ESchoolBanking\\BankingApp\\BankingApp.csproj",
       "packagesPath": "C:\\Users\\Diogo Brissos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Diogo Brissos\\Desktop\\BankingApp Backup\\BankingApp\\obj\\",
+      "outputPath": "C:\\Users\\Diogo Brissos\\Desktop\\BankingApp\\BankingApp\\ESchoolBanking\\BankingApp\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
