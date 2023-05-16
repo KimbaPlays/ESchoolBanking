@@ -38,34 +38,6 @@
                PlaceholderColor="#202327"/>
         </Frame>
 
-        <Label Margin="0,20,0,0" Text="{x:Static res:LanguageResources.TransactionModel}" HorizontalOptions="Center" FontSize="20" FontFamily="AgeoBold" TextColor="White" />
-
-        <Frame  Margin="15" HorizontalOptions="CenterAndExpand"  BackgroundColor="#202327" WidthRequest="250"  CornerRadius="30" Padding="0" >
-            <Entry x:Name="modelEntry" 
-               BackgroundColor="#202327"  
-               TextColor="#71767B"  
-               FontSize="16" 
-               WidthRequest="200"
-               HorizontalTextAlignment="Center"
-               Placeholder="{x:Static res:LanguageResources.TransactionModel}" 
-               HorizontalOptions="Center"  
-               PlaceholderColor="#202327"/>
-        </Frame>
-
-        <Label Margin="0,20,0,0" Text="{x:Static res:LanguageResources.ReferenceNumber}" HorizontalOptions="Center" FontSize="20" FontFamily="AgeoBold" TextColor="White" />
-
-        <Frame  Margin="15" HorizontalOptions="CenterAndExpand"  BackgroundColor="#202327" WidthRequest="250"  CornerRadius="30" Padding="0" >
-            <Entry x:Name="referencenumberEntry" 
-               BackgroundColor="#202327"  
-               TextColor="#71767B"  
-               FontSize="16" 
-               WidthRequest="200"
-               HorizontalTextAlignment="Center"
-               Placeholder="{x:Static res:LanguageResources.ReferenceNumber}" 
-               HorizontalOptions="Center"  
-               PlaceholderColor="#202327"/>
-        </Frame>
-
         <Label Margin="0,20,0,0" Text="{x:Static res:LanguageResources.PaymentDescription}" HorizontalOptions="Center" FontSize="20" FontFamily="AgeoBold" TextColor="White" />
         
         <Frame  Margin="15" HorizontalOptions="CenterAndExpand"  BackgroundColor="#202327" WidthRequest="250"  CornerRadius="30" Padding="0" >

@@ -9,7 +9,7 @@
   -->
   <Identity Name="8DA16325-9235-4394-9A34-E1D35EEBCAB9" Publisher="CN=User Name" Version="1.0.0.1" ProcessorArchitecture="x64" />
   <Properties>
-    <DisplayName>BankingApp</DisplayName>
+    <DisplayName>E-School Bank</DisplayName>
     <PublisherDisplayName>User Name</PublisherDisplayName>
     <Logo>appiconStoreLogo.png</Logo>
   </Properties>
@@ -23,8 +23,8 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="BankingApp.exe" EntryPoint="Windows.FullTrustApplication">
-      <uap:VisualElements DisplayName="BankingApp" Description="BankingApp" Square150x150Logo="appiconMediumTile.png" Square44x44Logo="appiconLogo.png" BackgroundColor="transparent">
-        <uap:DefaultTile Square71x71Logo="appiconSmallTile.png" Wide310x150Logo="appiconWideTile.png" Square310x310Logo="appiconLargeTile.png" ShortName="BankingApp">
+      <uap:VisualElements DisplayName="E-School Bank" Description="E-School Bank" Square150x150Logo="appiconMediumTile.png" Square44x44Logo="appiconLogo.png" BackgroundColor="transparent">
+        <uap:DefaultTile Square71x71Logo="appiconSmallTile.png" Wide310x150Logo="appiconWideTile.png" Square310x310Logo="appiconLargeTile.png" ShortName="E-School Bank">
           <uap:ShowNameOnTiles>
             <uap:ShowOn Tile="square150x150Logo" />
             <uap:ShowOn Tile="wide310x150Logo" />

@@ -35,9 +35,7 @@ public partial class TransactionSuccess : ContentPage
         ibanRecipientLabel.Text = "IBAN Recipient: " + _paymentData.ibanRecipient;
         nameRecipientLabel.Text = "Name Recipient: " + _paymentData.nameRecipient;
         paymentDescriptionLabel.Text = "Payment Description: " + _paymentData.paymentDescription;
-        modelLabel.Text = "Model: " + _paymentData.model;
         dateTimeLabel.Text = "Date of Transaction:" + DateTime.Now;
-        referenceNumberLabel.Text = "Reference Number: " + _paymentData.referenceNumber;
         amountLabel.Text = "Amount: " + _paymentData.amountValue.ToString("C", CultureInfo.CurrentCulture);
     }
 

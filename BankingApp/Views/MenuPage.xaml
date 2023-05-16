@@ -75,10 +75,6 @@
                                     <Label FontFamily="AgeoBold" Text="{x:Static res:LanguageResources.PaymentDescription}" FontSize="Small" />
                                     <Label Text="{Binding payment_description}" FontSize="Small" />
                                 </VerticalStackLayout>
-                                <VerticalStackLayout >
-                                    <Label FontFamily="AgeoBold" Text="{x:Static res:LanguageResources.ReferenceNumber}" FontSize="Small" />
-                                    <Label Text="{Binding reference_number}" FontSize="Small" />
-                                </VerticalStackLayout>
                             </StackLayout>
                         </toolkit:Expander>
                     </DataTemplate>

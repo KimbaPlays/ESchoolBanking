@@ -4,7 +4,6 @@ using System.Diagnostics;
 using System.Net.Http;
 using BankingApp.Models;
 using Microsoft.Maui.Controls;
-using BankingApp.Services;
 using Microsoft.Maui.Controls.Xaml;
 using Newtonsoft.Json.Linq;
 using System.Collections.ObjectModel;
@@ -13,6 +12,7 @@ using System.Xml;
 using BankingApp.Views;
 using Newtonsoft.Json;
 using System.Runtime.CompilerServices;
+using BankingApp.Services;
 
 namespace BankingApp
 {

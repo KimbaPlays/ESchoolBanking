@@ -129,9 +129,9 @@ public partial class MakeTransactionPage : ContentPage
         string ibanRecipient = ibanRecipientEntry.Text;
         string nameRecipient = nameRecipientEntry.Text;
         string paymentDescription = paymentDescriptionEntry.Text;
-        string model = modelEntry.Text;
+        string model = "99";
         string amountValue = amountEntry.Text.ToString();
-        string referenceNumber = referencenumberEntry.Text.ToString();
+        string referenceNumber = "999-999";
 
         // Validate the input data
         if (string.IsNullOrWhiteSpace(ibanRecipient))

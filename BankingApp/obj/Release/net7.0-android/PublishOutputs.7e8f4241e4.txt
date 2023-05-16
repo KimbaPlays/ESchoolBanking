@@ -1,3 +1,0 @@
-C:\Users\Diogo Brissos\Desktop\BankingApp Backup\BankingApp\bin\Release\net7.0-android\publish\ESBApp.ESBApp-Signed.aab
-C:\Users\Diogo Brissos\Desktop\BankingApp Backup\BankingApp\bin\Release\net7.0-android\publish\ESBApp.ESBApp.aab
-C:\Users\Diogo Brissos\Desktop\BankingApp Backup\BankingApp\bin\Release\net7.0-android\publish\ESBApp.ESBApp-Signed.apk
