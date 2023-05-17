@@ -30,37 +30,37 @@
     <AppXManifest Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\bin\Debug\net7.0-windows10.0.19041\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-16T17:28:39.690</Modified>
+      <Modified>2023-05-17T13:26:45.744</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\bin\Debug\net7.0-windows10.0.19041\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-05-16T17:28:38.846</Modified>
+      <Modified>2023-05-17T13:26:44.934</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\bin\Debug\net7.0-windows10.0.19041\win10-x64\BankingApp.runtimeconfig.json">
       <PackagePath>BankingApp.runtimeconfig.json</PackagePath>
-      <Modified>2023-05-16T17:26:20.269</Modified>
+      <Modified>2023-05-17T13:26:44.443</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\bin\Debug\net7.0-windows10.0.19041\win10-x64\BankingApp.dll">
       <PackagePath>BankingApp.dll</PackagePath>
-      <Modified>2023-05-16T17:28:36.325</Modified>
+      <Modified>2023-05-17T13:26:40.958</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\apphost.exe">
       <PackagePath>BankingApp.exe</PackagePath>
-      <Modified>2023-05-16T17:28:36.383</Modified>
+      <Modified>2023-05-17T13:26:40.990</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\hr\BankingApp.resources.dll">
       <PackagePath>hr\BankingApp.resources.dll</PackagePath>
-      <Modified>2023-05-16T17:28:38.331</Modified>
+      <Modified>2023-05-17T13:26:42.596</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\it\BankingApp.resources.dll">
       <PackagePath>it\BankingApp.resources.dll</PackagePath>
-      <Modified>2023-05-16T17:28:38.418</Modified>
+      <Modified>2023-05-17T13:26:42.699</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\pt\BankingApp.resources.dll">
       <PackagePath>pt\BankingApp.resources.dll</PackagePath>
-      <Modified>2023-05-16T17:28:38.507</Modified>
+      <Modified>2023-05-17T13:26:42.802</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.4\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -976,7 +976,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\BankingApp.deps.json">
       <PackagePath>BankingApp.deps.json</PackagePath>
-      <Modified>2023-05-16T17:28:39.376</Modified>
+      <Modified>2023-05-17T13:26:45.370</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.59\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1004,23 +1004,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.509</Modified>
+      <Modified>2023-05-16T17:37:17.980</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.529</Modified>
+      <Modified>2023-05-16T17:37:18.011</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.554</Modified>
+      <Modified>2023-05-16T17:37:18.060</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.593</Modified>
+      <Modified>2023-05-16T17:37:18.113</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.755</Modified>
+      <Modified>2023-05-16T17:37:18.302</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\f\App-Bold.otf">
       <PackagePath>App-Bold.otf</PackagePath>
@@ -1044,227 +1044,227 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-05-16T17:21:45.973</Modified>
+      <Modified>2023-05-16T17:37:18.481</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-05-16T17:21:47.854</Modified>
+      <Modified>2023-05-16T17:37:20.536</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-05-16T17:21:47.961</Modified>
+      <Modified>2023-05-16T17:37:20.598</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-05-16T17:21:48.020</Modified>
+      <Modified>2023-05-16T17:37:20.668</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-05-16T17:21:48.187</Modified>
+      <Modified>2023-05-16T17:37:20.812</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-05-16T17:21:48.456</Modified>
+      <Modified>2023-05-16T17:37:21.040</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-05-16T17:21:46.605</Modified>
+      <Modified>2023-05-16T17:37:19.190</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-05-16T17:21:46.643</Modified>
+      <Modified>2023-05-16T17:37:19.230</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-05-16T17:21:46.761</Modified>
+      <Modified>2023-05-16T17:37:19.347</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-05-16T17:21:46.678</Modified>
+      <Modified>2023-05-16T17:37:19.270</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-05-16T17:21:46.714</Modified>
+      <Modified>2023-05-16T17:37:19.308</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-05-16T17:21:46.395</Modified>
+      <Modified>2023-05-16T17:37:18.966</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-05-16T17:21:46.440</Modified>
+      <Modified>2023-05-16T17:37:19.009</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-05-16T17:21:46.571</Modified>
+      <Modified>2023-05-16T17:37:19.150</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-05-16T17:21:46.485</Modified>
+      <Modified>2023-05-16T17:37:19.050</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-05-16T17:21:46.530</Modified>
+      <Modified>2023-05-16T17:37:19.092</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-05-16T17:21:46.041</Modified>
+      <Modified>2023-05-16T17:37:18.563</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-05-16T17:21:46.078</Modified>
+      <Modified>2023-05-16T17:37:18.602</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-05-16T17:21:46.110</Modified>
+      <Modified>2023-05-16T17:37:18.645</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-05-16T17:21:46.143</Modified>
+      <Modified>2023-05-16T17:37:18.688</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-05-16T17:21:46.178</Modified>
+      <Modified>2023-05-16T17:37:18.731</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-05-16T17:21:46.211</Modified>
+      <Modified>2023-05-16T17:37:18.770</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-05-16T17:21:46.246</Modified>
+      <Modified>2023-05-16T17:37:18.809</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-05-16T17:21:46.360</Modified>
+      <Modified>2023-05-16T17:37:18.928</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-05-16T17:21:46.279</Modified>
+      <Modified>2023-05-16T17:37:18.850</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-05-16T17:21:46.317</Modified>
+      <Modified>2023-05-16T17:37:18.887</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-05-16T17:21:47.221</Modified>
+      <Modified>2023-05-16T17:37:19.825</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-05-16T17:21:47.271</Modified>
+      <Modified>2023-05-16T17:37:19.869</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-05-16T17:21:47.325</Modified>
+      <Modified>2023-05-16T17:37:19.911</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-05-16T17:21:47.380</Modified>
+      <Modified>2023-05-16T17:37:19.965</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-05-16T17:21:47.454</Modified>
+      <Modified>2023-05-16T17:37:20.095</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-05-16T17:21:46.986</Modified>
+      <Modified>2023-05-16T17:37:19.623</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-05-16T17:21:47.021</Modified>
+      <Modified>2023-05-16T17:37:19.664</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-05-16T17:21:47.061</Modified>
+      <Modified>2023-05-16T17:37:19.702</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-05-16T17:21:47.108</Modified>
+      <Modified>2023-05-16T17:37:19.739</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-05-16T17:21:47.167</Modified>
+      <Modified>2023-05-16T17:37:19.783</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-05-16T17:21:46.803</Modified>
+      <Modified>2023-05-16T17:37:19.390</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-05-16T17:21:46.842</Modified>
+      <Modified>2023-05-16T17:37:19.434</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-05-16T17:21:46.879</Modified>
+      <Modified>2023-05-16T17:37:19.478</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-05-16T17:21:46.916</Modified>
+      <Modified>2023-05-16T17:37:19.528</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-05-16T17:21:46.954</Modified>
+      <Modified>2023-05-16T17:37:19.581</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-05-16T17:21:47.496</Modified>
+      <Modified>2023-05-16T17:37:20.147</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-05-16T17:21:47.541</Modified>
+      <Modified>2023-05-16T17:37:20.197</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-05-16T17:21:47.594</Modified>
+      <Modified>2023-05-16T17:37:20.251</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-05-16T17:21:47.650</Modified>
+      <Modified>2023-05-16T17:37:20.362</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-05-16T17:21:47.803</Modified>
+      <Modified>2023-05-16T17:37:20.481</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appregister.scale-100.png">
       <PackagePath>appregister.scale-100.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.858</Modified>
+      <Modified>2023-05-16T17:37:18.366</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appregister.scale-125.png">
       <PackagePath>appregister.scale-125.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.864</Modified>
+      <Modified>2023-05-16T17:37:18.371</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appregister.scale-150.png">
       <PackagePath>appregister.scale-150.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.869</Modified>
+      <Modified>2023-05-16T17:37:18.376</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appregister.scale-200.png">
       <PackagePath>appregister.scale-200.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.875</Modified>
+      <Modified>2023-05-16T17:37:18.381</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\appregister.scale-400.png">
       <PackagePath>appregister.scale-400.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.883</Modified>
+      <Modified>2023-05-16T17:37:18.393</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\bankcardesb.scale-100.png">
       <PackagePath>bankcardesb.scale-100.png</PackagePath>
-      <Modified>2023-05-16T17:21:46.059</Modified>
+      <Modified>2023-05-16T17:37:18.607</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\bankcardesb.scale-125.png">
       <PackagePath>bankcardesb.scale-125.png</PackagePath>
-      <Modified>2023-05-16T17:21:46.346</Modified>
+      <Modified>2023-05-16T17:37:18.933</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\bankcardesb.scale-150.png">
       <PackagePath>bankcardesb.scale-150.png</PackagePath>
-      <Modified>2023-05-16T17:21:46.768</Modified>
+      <Modified>2023-05-16T17:37:19.427</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\bankcardesb.scale-200.png">
       <PackagePath>bankcardesb.scale-200.png</PackagePath>
-      <Modified>2023-05-16T17:21:47.529</Modified>
+      <Modified>2023-05-16T17:37:20.213</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\bankcardesb.scale-400.png">
       <PackagePath>bankcardesb.scale-400.png</PackagePath>
-      <Modified>2023-05-16T17:21:50.218</Modified>
+      <Modified>2023-05-16T17:37:22.860</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\camoes.scale-100.png">
       <PackagePath>camoes.scale-100.png</PackagePath>
@@ -1272,23 +1272,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.946</Modified>
+      <Modified>2023-05-16T17:37:18.471</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.960</Modified>
+      <Modified>2023-05-16T17:37:18.487</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.978</Modified>
+      <Modified>2023-05-16T17:37:18.509</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-05-16T17:21:46.003</Modified>
+      <Modified>2023-05-16T17:37:18.544</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-05-16T17:21:46.073</Modified>
+      <Modified>2023-05-16T17:37:18.641</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\erasmus.scale-100.png">
       <PackagePath>erasmus.scale-100.png</PackagePath>
@@ -1296,23 +1296,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\lockreset.scale-100.png">
       <PackagePath>lockreset.scale-100.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.858</Modified>
+      <Modified>2023-05-16T17:37:18.368</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\lockreset.scale-125.png">
       <PackagePath>lockreset.scale-125.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.863</Modified>
+      <Modified>2023-05-16T17:37:18.374</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\lockreset.scale-150.png">
       <PackagePath>lockreset.scale-150.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.869</Modified>
+      <Modified>2023-05-16T17:37:18.378</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\lockreset.scale-200.png">
       <PackagePath>lockreset.scale-200.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.874</Modified>
+      <Modified>2023-05-16T17:37:18.384</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\lockreset.scale-400.png">
       <PackagePath>lockreset.scale-400.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.883</Modified>
+      <Modified>2023-05-16T17:37:18.393</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\logo.scale-100.png">
       <PackagePath>logo.scale-100.png</PackagePath>
@@ -1320,103 +1320,103 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\logout.scale-100.png">
       <PackagePath>logout.scale-100.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.858</Modified>
+      <Modified>2023-05-16T17:37:18.366</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\logout.scale-125.png">
       <PackagePath>logout.scale-125.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.863</Modified>
+      <Modified>2023-05-16T17:37:18.370</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\logout.scale-150.png">
       <PackagePath>logout.scale-150.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.868</Modified>
+      <Modified>2023-05-16T17:37:18.373</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\logout.scale-200.png">
       <PackagePath>logout.scale-200.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.872</Modified>
+      <Modified>2023-05-16T17:37:18.382</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\logout.scale-400.png">
       <PackagePath>logout.scale-400.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.880</Modified>
+      <Modified>2023-05-16T17:37:18.388</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\password.scale-100.png">
       <PackagePath>password.scale-100.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.858</Modified>
+      <Modified>2023-05-16T17:37:18.367</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\password.scale-125.png">
       <PackagePath>password.scale-125.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.863</Modified>
+      <Modified>2023-05-16T17:37:18.373</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\password.scale-150.png">
       <PackagePath>password.scale-150.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.869</Modified>
+      <Modified>2023-05-16T17:37:18.377</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\password.scale-200.png">
       <PackagePath>password.scale-200.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.873</Modified>
+      <Modified>2023-05-16T17:37:18.383</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\password.scale-400.png">
       <PackagePath>password.scale-400.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.881</Modified>
+      <Modified>2023-05-16T17:37:18.390</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\person.scale-100.png">
       <PackagePath>person.scale-100.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.856</Modified>
+      <Modified>2023-05-16T17:37:18.366</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\person.scale-125.png">
       <PackagePath>person.scale-125.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.860</Modified>
+      <Modified>2023-05-16T17:37:18.370</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\person.scale-150.png">
       <PackagePath>person.scale-150.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.864</Modified>
+      <Modified>2023-05-16T17:37:18.374</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\person.scale-200.png">
       <PackagePath>person.scale-200.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.870</Modified>
+      <Modified>2023-05-16T17:37:18.378</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\person.scale-400.png">
       <PackagePath>person.scale-400.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.875</Modified>
+      <Modified>2023-05-16T17:37:18.384</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\visibilityeye.scale-100.png">
       <PackagePath>visibilityeye.scale-100.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.859</Modified>
+      <Modified>2023-05-16T17:37:18.367</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\visibilityeye.scale-125.png">
       <PackagePath>visibilityeye.scale-125.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.864</Modified>
+      <Modified>2023-05-16T17:37:18.371</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\visibilityeye.scale-150.png">
       <PackagePath>visibilityeye.scale-150.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.870</Modified>
+      <Modified>2023-05-16T17:37:18.374</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\visibilityeye.scale-200.png">
       <PackagePath>visibilityeye.scale-200.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.875</Modified>
+      <Modified>2023-05-16T17:37:18.380</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\visibilityeye.scale-400.png">
       <PackagePath>visibilityeye.scale-400.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.882</Modified>
+      <Modified>2023-05-16T17:37:18.390</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\wifioff.scale-100.png">
       <PackagePath>wifioff.scale-100.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.857</Modified>
+      <Modified>2023-05-16T17:37:18.368</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\wifioff.scale-125.png">
       <PackagePath>wifioff.scale-125.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.862</Modified>
+      <Modified>2023-05-16T17:37:18.371</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\wifioff.scale-150.png">
       <PackagePath>wifioff.scale-150.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.866</Modified>
+      <Modified>2023-05-16T17:37:18.376</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\wifioff.scale-200.png">
       <PackagePath>wifioff.scale-200.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.871</Modified>
+      <Modified>2023-05-16T17:37:18.385</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\obj\Debug\net7.0-windows10.0.19041\win10-x64\resizetizer\r\wifioff.scale-400.png">
       <PackagePath>wifioff.scale-400.png</PackagePath>
-      <Modified>2023-05-16T17:21:45.881</Modified>
+      <Modified>2023-05-16T17:37:18.392</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

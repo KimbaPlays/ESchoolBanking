@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ErODiuv+8nPf/HUst0DaVbLhMcm/lxoP+Zv8oTvMNBRXamjKA7qkBch1r0am793k51vJM8Alq8v+S37sfbHzlg==",
+  "dgSpecHash": "XjS9CJldA/uAHWCgoBsna75lPmGfDsLxZmVkKSky3MhFYu3bCklRrotfs5ZPMIi7PXP/KhgPZc/IvpYD3V3i5Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Diogo Brissos\\Desktop\\BankingApp\\BankingApp\\ESchoolBanking\\BankingApp\\BankingApp.csproj",
   "expectedPackageFiles": [
@@ -15,7 +15,11 @@
     "C:\\Users\\Diogo Brissos\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Diogo Brissos\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\Diogo Brissos\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\Diogo Brissos\\.nuget\\packages\\microsoft.graphics.win2d\\1.0.4\\microsoft.graphics.win2d.1.0.4.nupkg.sha512",
     "C:\\Users\\Diogo Brissos\\.nuget\\packages\\microsoft.maui.graphics\\7.0.59\\microsoft.maui.graphics.7.0.59.nupkg.sha512",
+    "C:\\Users\\Diogo Brissos\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\7.0.59\\microsoft.maui.graphics.win2d.winui.desktop.7.0.59.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22621.755\\microsoft.windows.sdk.buildtools.10.0.22621.755.nupkg.sha512",
+    "C:\\Users\\Diogo Brissos\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.221209.1\\microsoft.windowsappsdk.1.2.221209.1.nupkg.sha512",
     "C:\\Users\\Diogo Brissos\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
     "C:\\Users\\Diogo Brissos\\.nuget\\packages\\skiasharp\\2.88.1\\skiasharp.2.88.1.nupkg.sha512",
     "C:\\Users\\Diogo Brissos\\.nuget\\packages\\skiasharp.extended\\2.0.0-preview.61\\skiasharp.extended.2.0.0-preview.61.nupkg.sha512",
@@ -23,10 +27,13 @@
     "C:\\Users\\Diogo Brissos\\.nuget\\packages\\skiasharp.nativeassets.android\\2.88.1\\skiasharp.nativeassets.android.2.88.1.nupkg.sha512",
     "C:\\Users\\Diogo Brissos\\.nuget\\packages\\skiasharp.nativeassets.ios\\2.88.1\\skiasharp.nativeassets.ios.2.88.1.nupkg.sha512",
     "C:\\Users\\Diogo Brissos\\.nuget\\packages\\skiasharp.nativeassets.maccatalyst\\2.88.1\\skiasharp.nativeassets.maccatalyst.2.88.1.nupkg.sha512",
+    "C:\\Users\\Diogo Brissos\\.nuget\\packages\\skiasharp.nativeassets.macos\\2.88.1\\skiasharp.nativeassets.macos.2.88.1.nupkg.sha512",
+    "C:\\Users\\Diogo Brissos\\.nuget\\packages\\skiasharp.nativeassets.win32\\2.88.1\\skiasharp.nativeassets.win32.2.88.1.nupkg.sha512",
     "C:\\Users\\Diogo Brissos\\.nuget\\packages\\skiasharp.skottie\\2.88.1\\skiasharp.skottie.2.88.1.nupkg.sha512",
     "C:\\Users\\Diogo Brissos\\.nuget\\packages\\skiasharp.views\\2.88.1\\skiasharp.views.2.88.1.nupkg.sha512",
     "C:\\Users\\Diogo Brissos\\.nuget\\packages\\skiasharp.views.maui.controls\\2.88.1\\skiasharp.views.maui.controls.2.88.1.nupkg.sha512",
     "C:\\Users\\Diogo Brissos\\.nuget\\packages\\skiasharp.views.maui.core\\2.88.1\\skiasharp.views.maui.core.2.88.1.nupkg.sha512",
+    "C:\\Users\\Diogo Brissos\\.nuget\\packages\\skiasharp.views.winui\\2.88.1\\skiasharp.views.winui.2.88.1.nupkg.sha512",
     "C:\\Users\\Diogo Brissos\\.nuget\\packages\\system.runtime.interopservices.nfloat.internal\\6.0.1\\system.runtime.interopservices.nfloat.internal.6.0.1.nupkg.sha512",
     "C:\\Users\\Diogo Brissos\\.nuget\\packages\\xamarin.android.glide\\4.13.2.2\\xamarin.android.glide.4.13.2.2.nupkg.sha512",
     "C:\\Users\\Diogo Brissos\\.nuget\\packages\\xamarin.android.glide.annotations\\4.13.2.2\\xamarin.android.glide.annotations.4.13.2.2.nupkg.sha512",
@@ -108,7 +115,11 @@
     "C:\\Users\\Diogo Brissos\\.nuget\\packages\\xamarin.kotlin.stdlib.jdk7\\1.7.20.1\\xamarin.kotlin.stdlib.jdk7.1.7.20.1.nupkg.sha512",
     "C:\\Users\\Diogo Brissos\\.nuget\\packages\\xamarin.kotlin.stdlib.jdk8\\1.7.20.1\\xamarin.kotlin.stdlib.jdk8.1.7.20.1.nupkg.sha512",
     "C:\\Users\\Diogo Brissos\\.nuget\\packages\\xamarin.kotlinx.coroutines.android\\1.6.4.1\\xamarin.kotlinx.coroutines.android.1.6.4.1.nupkg.sha512",
-    "C:\\Users\\Diogo Brissos\\.nuget\\packages\\xamarin.kotlinx.coroutines.core.jvm\\1.6.4.1\\xamarin.kotlinx.coroutines.core.jvm.1.6.4.1.nupkg.sha512"
+    "C:\\Users\\Diogo Brissos\\.nuget\\packages\\xamarin.kotlinx.coroutines.core.jvm\\1.6.4.1\\xamarin.kotlinx.coroutines.core.jvm.1.6.4.1.nupkg.sha512",
+    "C:\\Users\\Diogo Brissos\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.28\\microsoft.windows.sdk.net.ref.10.0.19041.28.nupkg.sha512",
+    "C:\\Users\\Diogo Brissos\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.4\\microsoft.aspnetcore.app.runtime.win-x64.7.0.4.nupkg.sha512",
+    "C:\\Users\\Diogo Brissos\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.4\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.4.nupkg.sha512",
+    "C:\\Users\\Diogo Brissos\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.4\\microsoft.netcore.app.runtime.win-x64.7.0.4.nupkg.sha512"
   ],
   "logs": []
 }
