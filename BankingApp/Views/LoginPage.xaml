@@ -9,7 +9,7 @@
 
         <!--Internet Connection-->
         <VerticalStackLayout x:Name="InternetFailure" Margin="0,10,0,0">
-            <Label Text="{x:Static res:LanguageResources.InternetFail}" FontSize="16" FontFamily="AgeoLight" HorizontalTextAlignment="Center"></Label>
+            <Label Text="{x:Static res:LanguageResources.InternetFail}" FontSize="16" HorizontalTextAlignment="Center"></Label>
             <Image Source="wifioff.svg" HorizontalOptions="Center" WidthRequest="22" HeightRequest="22"></Image>
         </VerticalStackLayout>
 
@@ -19,8 +19,8 @@
 
         <!--Welcome + Please Login with your Information-->
         <VerticalStackLayout>
-            <Label x:Name="Welcome" Text="{x:Static res:LanguageResources.Welcome}" FontSize="46" FontFamily="AgeoBold" HorizontalTextAlignment="Center"></Label>
-            <Label Text="{x:Static res:LanguageResources.LoginInformation}" FontSize="16" FontFamily="AgeoLight" HorizontalTextAlignment="Center"></Label>
+            <Label x:Name="Welcome" Text="{x:Static res:LanguageResources.Welcome}" FontSize="46" HorizontalTextAlignment="Center"></Label>
+            <Label Text="{x:Static res:LanguageResources.LoginInformation}" FontSize="16"  HorizontalTextAlignment="Center"></Label>
         </VerticalStackLayout>
 
         <!--Login Box-->
@@ -29,19 +29,19 @@
                 <StackLayout>
                     <Grid>
                         <Image Source="person.svg" Margin="0,0,110,0"></Image>
-                        <Label HorizontalOptions="CenterAndExpand" FontFamily="AgeoBold" TextColor="White" 
+                        <Label HorizontalOptions="CenterAndExpand"  TextColor="White" 
                        FontSize="18" Text="{x:Static res:LanguageResources.Username}"/>
                     </Grid>
 
                     <Grid Margin="0.5">
                         <Frame  Margin="15" HorizontalOptions="CenterAndExpand"  BackgroundColor="#202327" WidthRequest="250"  CornerRadius="30" Padding="0" >
                             <Entry x:Name="UsernameEntry" BackgroundColor="#202327"  TextColor="#71767B"  
-                              FontFamily="AgeoLight" FontSize="16" Placeholder="{x:Static res:LanguageResources.EnterUsername}" HorizontalOptions="CenterAndExpand"  PlaceholderColor="#202327" />
+                               FontSize="16" Placeholder="{x:Static res:LanguageResources.EnterUsername}" HorizontalOptions="CenterAndExpand"  PlaceholderColor="#202327" />
                         </Frame>
                     </Grid>
                     <Grid>
                         <Image Source="password.svg" HeightRequest="24" Margin="0,0,150,0"></Image>
-                        <Label  HorizontalOptions="CenterAndExpand" FontFamily="AgeoBold" TextColor="White" 
+                        <Label  HorizontalOptions="CenterAndExpand"  TextColor="White" 
                        FontSize="18" Text="{x:Static res:LanguageResources.Password}"/>
                     </Grid>
                     <Grid Margin="0.5">
@@ -52,7 +52,7 @@
                     </Grid>
 
                     <Button x:Name="btnLogin" VerticalOptions="End" Margin="0,10" WidthRequest="100" BackgroundColor="#2080dc"
-                    Text="{x:Static res:LanguageResources.SignIn}" TextColor="White" FontFamily="AgeoBold" Clicked="LoginButton"/>
+                    Text="{x:Static res:LanguageResources.SignIn}" TextColor="White" Clicked="LoginButton"/>
                 </StackLayout>
             </Frame>
         </VerticalStackLayout>
@@ -60,8 +60,7 @@
 
         <!--Bottom-->
         <Grid Margin="30" HeightRequest="100" VerticalOptions="End">
-            <Image Source="erasmus.png"  HeightRequest="40"  VerticalOptions="End" HorizontalOptions="StartAndExpand"/>
-            <Image Source="camoes.png"  HeightRequest="40" VerticalOptions="End"  HorizontalOptions="EndAndExpand"/>
+            <Image Source="erasmus.png"  HeightRequest="40"  VerticalOptions="End" HorizontalOptions="CenterAndExpand"/>
         </Grid>
 
     </VerticalStackLayout>

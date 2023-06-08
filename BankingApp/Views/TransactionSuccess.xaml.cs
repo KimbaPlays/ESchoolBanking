@@ -37,6 +37,8 @@ public partial class TransactionSuccess : ContentPage
         paymentDescriptionLabel.Text = "Payment Description: " + _paymentData.paymentDescription;
         dateTimeLabel.Text = "Date of Transaction:" + DateTime.Now;
         amountLabel.Text = "Amount: " + _paymentData.amountValue.ToString("C", CultureInfo.CurrentCulture);
+        modelLabel.Text = "Model:" + _paymentData.model;
+        referenceNumberLabel.Text = "Reference Number:" + _paymentData.referenceNumber;
     }
 
 

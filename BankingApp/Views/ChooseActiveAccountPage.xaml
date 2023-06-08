@@ -12,16 +12,16 @@
 
         <!--Name Surname-->
         <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0,20,0,0">
-            <Label FontFamily="AgeoBold" Text="{x:Static res:LanguageResources.Hello} " FontSize="42" VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" TextColor="#00B2FF"/>
+            <Label  Text="{x:Static res:LanguageResources.Hello} " FontSize="42" VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" TextColor="#00B2FF"/>
             <Label x:Name="nameLabel"
-                   FontFamily="AgeoBold"
+                   
                    FontSize="32"
                 HorizontalOptions="CenterAndExpand"
                    VerticalOptions="EndAndExpand"
                 Text= "{Binding nameLabel.Text}"/>
             <Label x:Name="surnameLabel"
                    FontSize="32"
-                   FontFamily="AgeoBold"
+                   
                    VerticalOptions="EndAndExpand"
                    HorizontalOptions="CenterAndExpand"
                 Text="{Binding surnameLabel.Text}" />
@@ -29,7 +29,7 @@
         <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0,5,0,0">
         </StackLayout>
 
-        <Label FontFamily="AgeoBold" Text="{x:Static res:LanguageResources.WhichAccountAreYouUsing}"  HorizontalOptions="Center" FontSize="Large" Margin="5,30,0,0"/>
+        <Label  Text="{x:Static res:LanguageResources.WhichAccountAreYouUsing}"  HorizontalOptions="Center" FontSize="Large" Margin="5,30,0,0"/>
         
         <!--Account List View-->
         <StackLayout Margin="10">
@@ -46,7 +46,7 @@
                 </ListView.ItemTemplate>
             </ListView>
 
-            <Button Text="{x:Static res:LanguageResources.Continue}" FontSize="16" FontFamily="AgeoBold" WidthRequest="200"  Clicked="OnContinueButtonClicked" BackgroundColor="#00B2FF" Margin="20" />
+            <Button Text="{x:Static res:LanguageResources.Continue}" FontSize="16"  WidthRequest="200"  Clicked="OnContinueButtonClicked" BackgroundColor="#00B2FF" Margin="20" />
 
         </StackLayout>
 

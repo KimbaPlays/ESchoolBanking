@@ -6,6 +6,7 @@ using BankingApp.Services;
 using BankingApp.Views;
 using System.Globalization;
 using System.Diagnostics;
+using System.Numerics;
 
 namespace BankingApp.Views;
 [XamlCompilation(XamlCompilationOptions.Skip)]
@@ -129,9 +130,32 @@ public partial class MakeTransactionPage : ContentPage
         string ibanRecipient = ibanRecipientEntry.Text;
         string nameRecipient = nameRecipientEntry.Text;
         string paymentDescription = paymentDescriptionEntry.Text;
-        string model = "99";
-        string amountValue = amountEntry.Text.ToString();
-        string referenceNumber = "999-999";
+        string model = modelEntry.Text;
+        
+    
+        string amountValue;
+        if (string.IsNullOrWhiteSpace(amountEntry.Text))
+        {
+            amountValue = "0";
+            await DisplayAlert("Error", "Please enter a valid amount.", "OK");
+            return;
+
+        }
+        else
+        {
+            amountValue = amountEntry.Text.ToString();
+        }
+
+        string referenceNumber;
+        if (string.IsNullOrWhiteSpace(referencenumberEntry.Text))
+        {
+            referenceNumber = "";
+        }
+        else 
+        {
+            referenceNumber = referencenumberEntry.Text.ToString(); 
+        }
+       
 
         // Validate the input data
         if (string.IsNullOrWhiteSpace(ibanRecipient))
@@ -154,22 +178,24 @@ public partial class MakeTransactionPage : ContentPage
 
         if (!decimal.TryParse(amountValue, NumberStyles.Currency, CultureInfo.InvariantCulture, out decimal amount))
         {
+
+
             await DisplayAlert("Error", "Please enter a valid amount.", "OK");
             return;
         }
-
-        if (string.IsNullOrWhiteSpace(model))
+        else
         {
-            await DisplayAlert("Error", "Please enter a model.", "OK");
-            return;
+            decimal amountint = decimal.Parse(amountValue);
+                
+            if (amountint < 0)
+            {
+                await DisplayAlert("Error", "Please enter a valid amount.", "OK");
+                return;
+            }
+                
         }
-
-        if (string.IsNullOrWhiteSpace(referenceNumber))
-        {
-            await DisplayAlert("Error", "Please enter a reference-number.", "OK");
-            return;
-        }
-
+        
+        
 
         if (ibanPayer == ibanRecipient)
         {

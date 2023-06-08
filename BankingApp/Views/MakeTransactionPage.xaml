@@ -8,12 +8,12 @@
         <VerticalStackLayout>
 
 
-        <Label Margin="0,20,0,40" Text="{x:Static res:LanguageResources.MakeTransaction}" HorizontalOptions="Center" FontSize="36" FontFamily="AgeoBold" TextColor="White" />
+            <Label Margin="0,20,0,40" Text="{x:Static res:LanguageResources.MakeTransaction}" HorizontalOptions="Center" FontSize="36" FontFamily="AgeoBold" TextColor="White" />
 
-        <Label Margin="0,20,0,0" Text="{x:Static res:LanguageResources.IBANRecipient}" HorizontalOptions="Center" FontSize="20" FontFamily="AgeoBold" TextColor="White" />
+            <Label Margin="0,20,0,0" Text="{x:Static res:LanguageResources.IBANRecipient}" HorizontalOptions="Center" FontSize="20" FontFamily="AgeoBold" TextColor="White" />
 
-        <Frame  Margin="15" HorizontalOptions="CenterAndExpand"  BackgroundColor="#202327" WidthRequest="250"  CornerRadius="30" Padding="0" >
-            <Entry x:Name="ibanRecipientEntry" 
+            <Frame  Margin="15" HorizontalOptions="CenterAndExpand"  BackgroundColor="#202327" WidthRequest="250"  CornerRadius="30" Padding="0" >
+                <Entry x:Name="ibanRecipientEntry" 
                BackgroundColor="#202327"  
                TextColor="#71767B"  
                FontSize="16" 
@@ -22,12 +22,12 @@
                Placeholder="{x:Static res:LanguageResources.InsertIBANRecipient}" 
                HorizontalOptions="CenterAndExpand"  
                PlaceholderColor="#202327" />
-        </Frame>
+            </Frame>
 
-        <Label Margin="0,20,0,0" Text="{x:Static res:LanguageResources.TransactionAmount}" HorizontalOptions="Center" FontSize="20" FontFamily="AgeoBold" TextColor="White" />
+            <Label Margin="0,20,0,0" Text="{x:Static res:LanguageResources.TransactionAmount}" HorizontalOptions="Center" FontSize="20" FontFamily="AgeoBold" TextColor="White" />
 
-        <Frame  Margin="15" HorizontalOptions="CenterAndExpand"  BackgroundColor="#202327" WidthRequest="250"  CornerRadius="30" Padding="0" >
-            <Entry x:Name="amountEntry" 
+            <Frame  Margin="15" HorizontalOptions="CenterAndExpand"  BackgroundColor="#202327" WidthRequest="250"  CornerRadius="30" Padding="0" >
+                <Entry x:Name="amountEntry" 
                BackgroundColor="#202327"  
                TextColor="#71767B"  
                FontSize="16" 
@@ -36,12 +36,40 @@
                Placeholder="{x:Static res:LanguageResources.InsertAmount}" 
                HorizontalOptions="Center"  
                PlaceholderColor="#202327"/>
-        </Frame>
+            </Frame>
 
-        <Label Margin="0,20,0,0" Text="{x:Static res:LanguageResources.PaymentDescription}" HorizontalOptions="Center" FontSize="20" FontFamily="AgeoBold" TextColor="White" />
-        
-        <Frame  Margin="15" HorizontalOptions="CenterAndExpand"  BackgroundColor="#202327" WidthRequest="250"  CornerRadius="30" Padding="0" >
-            <Entry x:Name="paymentDescriptionEntry" 
+            <Label Margin="0,20,0,0" Text="{x:Static res:LanguageResources.TransactionModel}" HorizontalOptions="Center" FontSize="20" FontFamily="AgeoBold" TextColor="White" />
+
+            <Frame  Margin="15" HorizontalOptions="CenterAndExpand"  BackgroundColor="#202327" WidthRequest="250"  CornerRadius="30" Padding="0" >
+                <Entry x:Name="modelEntry" 
+               BackgroundColor="#202327"  
+               TextColor="#71767B"  
+               FontSize="16" 
+               WidthRequest="200"
+               HorizontalTextAlignment="Center"
+               Placeholder="{x:Static res:LanguageResources.TransactionModel}" 
+               HorizontalOptions="Center"  
+               PlaceholderColor="#202327"/>
+            </Frame>
+
+            <Label Margin="0,20,0,0" Text="{x:Static res:LanguageResources.ReferenceNumber}" HorizontalOptions="Center" FontSize="20" FontFamily="AgeoBold" TextColor="White" />
+
+            <Frame  Margin="15" HorizontalOptions="CenterAndExpand"  BackgroundColor="#202327" WidthRequest="250"  CornerRadius="30" Padding="0" >
+                <Entry x:Name="referencenumberEntry" 
+               BackgroundColor="#202327"  
+               TextColor="#71767B"  
+               FontSize="16" 
+               WidthRequest="200"
+               HorizontalTextAlignment="Center"
+               Placeholder="{x:Static res:LanguageResources.ReferenceNumber}" 
+               HorizontalOptions="Center"  
+               PlaceholderColor="#202327"/>
+            </Frame>
+
+            <Label Margin="0,20,0,0" Text="{x:Static res:LanguageResources.PaymentDescription}" HorizontalOptions="Center" FontSize="20" FontFamily="AgeoBold" TextColor="White" />
+
+            <Frame  Margin="15" HorizontalOptions="CenterAndExpand"  BackgroundColor="#202327" WidthRequest="250"  CornerRadius="30" Padding="0" >
+                <Entry x:Name="paymentDescriptionEntry" 
                BackgroundColor="#202327"  
                TextColor="#71767B"  
                FontSize="16" 
@@ -50,12 +78,12 @@
                Placeholder="{x:Static res:LanguageResources.InsertPaymentDescription}" 
                HorizontalOptions="CenterAndExpand"  
                PlaceholderColor="#202327"/>
-        </Frame>
+            </Frame>
 
-        <Label Margin="0,20,0,0" Text="{x:Static res:LanguageResources.FirstLastNameRecipient}" HorizontalOptions="Center" FontSize="20" FontFamily="AgeoBold" TextColor="White" />
-        
-        <Frame  Margin="15" HorizontalOptions="CenterAndExpand"  BackgroundColor="#202327" WidthRequest="250"  CornerRadius="30" Padding="0" >
-            <Entry x:Name="nameRecipientEntry" 
+            <Label Margin="0,20,0,0" Text="{x:Static res:LanguageResources.FirstLastNameRecipient}" HorizontalOptions="Center" FontSize="20" FontFamily="AgeoBold" TextColor="White" />
+
+            <Frame  Margin="15" HorizontalOptions="CenterAndExpand"  BackgroundColor="#202327" WidthRequest="250"  CornerRadius="30" Padding="0" >
+                <Entry x:Name="nameRecipientEntry" 
                BackgroundColor="#202327"  
                TextColor="#71767B"  
                FontSize="16" 
@@ -64,10 +92,10 @@
                Placeholder="{x:Static res:LanguageResources.InsertNameRecipient}" 
                HorizontalOptions="CenterAndExpand"  
                PlaceholderColor="#202327" />
-        </Frame>
+            </Frame>
 
-        <Button x:Name="MakeTransaction" VerticalOptions="End" Margin="0,10" WidthRequest="150" HeightRequest="50" BackgroundColor="#2080dc"
+            <Button x:Name="MakeTransaction" VerticalOptions="End" Margin="0,10" WidthRequest="150" HeightRequest="50" BackgroundColor="#2080dc"
                     Text="{x:Static res:LanguageResources.Continue}" TextColor="White" FontSize="20" FontFamily="AgeoBold" Clicked="MakeTransactionButton"/>
-    </VerticalStackLayout>
+        </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
