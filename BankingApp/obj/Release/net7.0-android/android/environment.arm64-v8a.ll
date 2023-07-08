@@ -78,7 +78,7 @@ target triple = "aarch64-unknown-linux-android"
 @__app_environment_variables_n_0.0 = internal constant [15 x i8] c"MONO_GC_PARAMS\00", align 1
 @__app_environment_variables_v_0.1 = internal constant [21 x i8] c"major=marksweep-conc\00", align 1
 @__app_environment_variables_n_1.2 = internal constant [17 x i8] c"XAMARIN_BUILD_ID\00", align 1
-@__app_environment_variables_v_1.3 = internal constant [37 x i8] c"bf337b8f-2a20-4027-aa59-6b06dd729a08\00", align 1
+@__app_environment_variables_v_1.3 = internal constant [37 x i8] c"f488eed7-1ff4-41b4-ae0c-5d4019c16d8a\00", align 1
 @__app_environment_variables_n_2.4 = internal constant [28 x i8] c"XA_HTTP_CLIENT_HANDLER_TYPE\00", align 1
 @__app_environment_variables_v_2.5 = internal constant [42 x i8] c"Xamarin.Android.Net.AndroidMessageHandler\00", align 1
 @__app_environment_variables_n_3.6 = internal constant [29 x i8] c"__XA_PACKAGE_NAMING_POLICY__\00", align 1
@@ -120,8 +120,8 @@ target triple = "aarch64-unknown-linux-android"
 	i32 2, ; number_of_assembly_store_files
 	i32 642, ; number_of_dso_cache_entries
 	i32 33555328, ; android_runtime_jnienv_class_token
-	i32 100673274, ; jnienv_initialize_method_token
-	i32 100673273, ; jnienv_registerjninatives_method_token
+	i32 100673279, ; jnienv_initialize_method_token
+	i32 100673278, ; jnienv_registerjninatives_method_token
 	i32 0, ; jni_remapping_replacement_type_count
 	i32 0, ; jni_remapping_replacement_method_index_entry_count
 	i32 0, ; mono_components_mask
@@ -4755,4 +4755,4 @@ target triple = "aarch64-unknown-linux-android"
 !3 = !{i32 1, !"sign-return-address", i32 0}
 !4 = !{i32 1, !"sign-return-address-all", i32 0}
 !5 = !{i32 1, !"sign-return-address-with-bkey", i32 0}
-!6 = !{!"Xamarin.Android remotes/origin/release/7.0.1xx @ af18b843d16f5ecad3171016fb66efecdb78c4bf"}
+!6 = !{!"Xamarin.Android remotes/origin/release/7.0.2xx @ 58a54aef5213e50e3e59008e244a64896fe971b6"}

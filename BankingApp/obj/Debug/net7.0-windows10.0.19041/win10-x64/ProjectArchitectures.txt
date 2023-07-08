@@ -1,1 +1,1 @@
-C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\BankingApp.csproj;x64
+C:\Users\briss\OneDrive\Documents\GitHub\ESchoolBanking\BankingApp\BankingApp.csproj;x64

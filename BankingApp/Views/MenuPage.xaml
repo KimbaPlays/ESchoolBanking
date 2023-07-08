@@ -40,7 +40,7 @@
           ItemDisplayBinding="{Binding card_number}" />
             </Grid>
         
-            <Button HorizontalOptions="Center" Margin="10" WidthRequest="200" HeightRequest="50" BackgroundColor="#00B2FF"
+            <Button HorizontalOptions="Center" Margin="10" WidthRequest="230" HeightRequest="60" BackgroundColor="#00B2FF"
                     Text="{x:Static res:LanguageResources.MakeTransaction}" TextColor="White"  FontSize="18" Clicked="GotoTransactionPage"/>
          
         <Button HorizontalOptions="Center" Margin="10" WidthRequest="200" HeightRequest="50" BackgroundColor="#00B2FF"

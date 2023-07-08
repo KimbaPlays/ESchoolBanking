@@ -1,0 +1,3 @@
+C:\Users\briss\OneDrive\Desktop\ESchoolBanking-main\BankingApp\bin\Release\net7.0-android\publish\ESBApp.ESBApp-Signed.aab
+C:\Users\briss\OneDrive\Desktop\ESchoolBanking-main\BankingApp\bin\Release\net7.0-android\publish\ESBApp.ESBApp.aab
+C:\Users\briss\OneDrive\Desktop\ESchoolBanking-main\BankingApp\bin\Release\net7.0-android\publish\ESBApp.ESBApp-Signed.apk

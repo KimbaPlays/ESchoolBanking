@@ -12,81 +12,81 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = BankingApp
-build_property.ProjectDir = C:\Users\Diogo Brissos\Desktop\BankingApp\BankingApp\ESchoolBanking\BankingApp\
+build_property.ProjectDir = C:\Users\briss\OneDrive\Documents\GitHub\ESchoolBanking\BankingApp\
 
-[C:/Users/Diogo Brissos/Desktop/BankingApp/BankingApp/ESchoolBanking/BankingApp/App.xaml]
+[C:/Users/briss/OneDrive/Documents/GitHub/ESchoolBanking/BankingApp/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BankingApp.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/Diogo Brissos/Desktop/BankingApp/BankingApp/ESchoolBanking/BankingApp/AppShell.xaml]
+[C:/Users/briss/OneDrive/Documents/GitHub/ESchoolBanking/BankingApp/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BankingApp.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/Diogo Brissos/Desktop/BankingApp/BankingApp/ESchoolBanking/BankingApp/Resources/Styles/Colors.xaml]
+[C:/Users/briss/OneDrive/Documents/GitHub/ESchoolBanking/BankingApp/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BankingApp.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/Diogo Brissos/Desktop/BankingApp/BankingApp/ESchoolBanking/BankingApp/Resources/Styles/Styles.xaml]
+[C:/Users/briss/OneDrive/Documents/GitHub/ESchoolBanking/BankingApp/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BankingApp.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/Diogo Brissos/Desktop/BankingApp/BankingApp/ESchoolBanking/BankingApp/Views/CalculatorPage.xaml]
+[C:/Users/briss/OneDrive/Documents/GitHub/ESchoolBanking/BankingApp/Views/CalculatorPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BankingApp.Views.CalculatorPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\CalculatorPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\CalculatorPage.xaml
 
-[C:/Users/Diogo Brissos/Desktop/BankingApp/BankingApp/ESchoolBanking/BankingApp/Views/ChooseActiveAccountPage.xaml]
+[C:/Users/briss/OneDrive/Documents/GitHub/ESchoolBanking/BankingApp/Views/ChooseActiveAccountPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BankingApp.Views.ChooseActiveAccountPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\ChooseActiveAccountPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\ChooseActiveAccountPage.xaml
 
-[C:/Users/Diogo Brissos/Desktop/BankingApp/BankingApp/ESchoolBanking/BankingApp/Views/LandingPage.xaml]
+[C:/Users/briss/OneDrive/Documents/GitHub/ESchoolBanking/BankingApp/Views/LandingPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BankingApp.Views.LandingPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\LandingPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\LandingPage.xaml
 
-[C:/Users/Diogo Brissos/Desktop/BankingApp/BankingApp/ESchoolBanking/BankingApp/Views/LoansPage.xaml]
+[C:/Users/briss/OneDrive/Documents/GitHub/ESchoolBanking/BankingApp/Views/LoansPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BankingApp.Views.LoansPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\LoansPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\LoansPage.xaml
 
-[C:/Users/Diogo Brissos/Desktop/BankingApp/BankingApp/ESchoolBanking/BankingApp/Views/LoginPage.xaml]
+[C:/Users/briss/OneDrive/Documents/GitHub/ESchoolBanking/BankingApp/Views/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BankingApp.Views.LoginPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\LoginPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\LoginPage.xaml
 
-[C:/Users/Diogo Brissos/Desktop/BankingApp/BankingApp/ESchoolBanking/BankingApp/Views/MakeTransactionPage.xaml]
+[C:/Users/briss/OneDrive/Documents/GitHub/ESchoolBanking/BankingApp/Views/MakeTransactionPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BankingApp.Views.MakeTransactionPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\MakeTransactionPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\MakeTransactionPage.xaml
 
-[C:/Users/Diogo Brissos/Desktop/BankingApp/BankingApp/ESchoolBanking/BankingApp/Views/MenuPage.xaml]
+[C:/Users/briss/OneDrive/Documents/GitHub/ESchoolBanking/BankingApp/Views/MenuPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BankingApp.Views.MenuPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\MenuPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\MenuPage.xaml
 
-[C:/Users/Diogo Brissos/Desktop/BankingApp/BankingApp/ESchoolBanking/BankingApp/Views/SavingsCalculator.xaml]
+[C:/Users/briss/OneDrive/Documents/GitHub/ESchoolBanking/BankingApp/Views/SavingsCalculator.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BankingApp.Views.SavingsCalculator.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\SavingsCalculator.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\SavingsCalculator.xaml
 
-[C:/Users/Diogo Brissos/Desktop/BankingApp/BankingApp/ESchoolBanking/BankingApp/Views/TransactionSuccess.xaml]
+[C:/Users/briss/OneDrive/Documents/GitHub/ESchoolBanking/BankingApp/Views/TransactionSuccess.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BankingApp.Views.TransactionSuccess.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\TransactionSuccess.xaml
